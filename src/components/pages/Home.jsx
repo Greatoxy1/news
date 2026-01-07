@@ -1,6 +1,15 @@
+import React from "react";
+import { Helmet } from "react-helmet-async";
 export default function Home() {
     return (
         <div>
+                    <Helmet>
+        <title>Breaking News Today | Global News</title>
+        <meta
+          name="description"
+          content="Latest breaking news, entertainment, sports, and world updates."
+        />
+      </Helmet>
             <h1>
                 How the fear and panic of global war is affecting the peace and freedom of the people.
             </h1>
@@ -26,6 +35,8 @@ export default function Home() {
                 The 20-point plan differs from the November 2025 28-point plan in significant ways. The 28-point plan called for Ukraine to withdraw from the remainder of unoccupied Donbas (Donetsk and Luhansk oblasts), for the creation of a demilitarized zone in Donbas that would be internationally recognized as de facto Russian territory, and for the war to freeze along the current frontline in Zaporizhia and Kherson oblasts.[4] The 28-point plan also capped the Ukrainian military during peacetime at 600,000 personnel and called for Ukraine to abandon its efforts to seek NATO membership.
                 The 20-point plan, in contrast, calls for the war to freeze in Luhansk, Donetsk, Zaporizhia, and Kherson oblasts along the frontline as of the date of the agreement’s signing; caps Ukraine’s peacetime military at 800,000; and does not mention Ukraine’s possible NATO membership.
             </p>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2085549921114635"
+                crossorigin="anonymous"></script>
             <div>
                 <img src="ru1.webp" alt="image" />
             </div>
@@ -157,12 +168,12 @@ export default function Home() {
             <p>
                 The UN cannot enforce decisions by force unless countries volunteer troops.
 
-If countries refuse, UN decisions may have no real consequences.
-When national security, power, or money are involved, countries may act without UN approval.
+                If countries refuse, UN decisions may have no real consequences.
+                When national security, power, or money are involved, countries may act without UN approval.
 
-International law is strong on paper, weaker in practice.
+                International law is strong on paper, weaker in practice.
 
-➡️ The UN cannot arrest or punish powerful states easily.
+                ➡️ The UN cannot arrest or punish powerful states easily.
 
             </p>
             <h1>
@@ -181,15 +192,17 @@ International law is strong on paper, weaker in practice.
             <p>
                 Each one has veto power, meaning one country alone can block any decision.
 
-➡️ If a resolution goes against the interests of any of these five, it usually doesn’t pass.
-UN peacekeeping missions are tools to maintain peace, not create it.
-They work best after diplomacy, not instead of it.
-A UN peacekeeping mission would only be possible if violence stopped
+                ➡️ If a resolution goes against the interests of any of these five, it usually doesn’t pass.
+                UN peacekeeping missions are tools to maintain peace, not create it.
+                They work best after diplomacy, not instead of it.
+                A UN peacekeeping mission would only be possible if violence stopped
 
-Both sides would need to agree to it
+                Both sides would need to agree to it
 
-Its role would be to stabilize, not control Venezuela.
+                Its role would be to stabilize, not control Venezuela.
             </p>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2085549921114635"
+                crossorigin="anonymous"></script>
             <h1>
                 <a href="https://shop.globbalnews.com">SPONSORSHIP AND ENQUIRIES ARE AVAILABLE HERE...</a>
             </h1>
