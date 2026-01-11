@@ -1,17 +1,16 @@
-import React from "react";
 import { Helmet } from "react-helmet-async";
 export default function Home() {
     return (
         <div>
-                    <Helmet>
-        <title>Breaking News Today | Global News</title>
-        <meta
-          name="description"
-          content="Latest breaking news, entertainment, sports, and world updates."
-        />
-      </Helmet>
+            <Helmet>
+                <title>Breaking News Today | Global News</title>
+                <meta
+                    name="description"
+                    content="Latest breaking news, entertainment, sports, blog and world updates."
+                />
+            </Helmet>
             <h1>
-                How the fear and panic of global war is affecting the peace and freedom of the people.
+                How fear and panic of global war is affecting the peace and freedom of the people.
             </h1>
             <p>
                 In this morden world, peace has become something difficult to get irrespective your position.
@@ -27,7 +26,9 @@ export default function Home() {
                 Many people are asking, when will this global conflicts end?.
             </p>
             <div>
-                <img src="ru2.png" alt="image" />
+
+                <img src="ru2.png" alt="image" width="500"/>
+
             </div>
             <p>
                 The war is an ongoing international conflict between Russia (alongside Russian-backed separatists) and Ukraine which began in February 2014. Following Ukraine's Revolution of Dignity, Russia annexed Ukrainian Crimea and supported pro-Russian separatists fighting the Ukrainian military in the Donbas war. The first eight years of conflict included naval incidents, cyberwarfare, and heightened political tensions.
@@ -38,7 +39,8 @@ export default function Home() {
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2085549921114635"
                 crossorigin="anonymous"></script>
             <div>
-                <img src="ru1.webp" alt="image" />
+                <img src="ru1.webp" alt="image" width="5
+00"/>
             </div>
             <p>
                 The source reportedly stated that Russia’s concerns about the document include the lack of guarantees prohibiting NATO’s eastward expansion, insufficient limits on Ukraine’s peacetime military forces and weapons, the lack of provisions about Ukraine’s neutral status should Ukraine join the EU, and the lack of assurances about the status of the Russian language in Ukraine.
@@ -58,7 +60,8 @@ export default function Home() {
                 The attack comes just more than a month after Trump designated Maduro and his government allies of a foreign terrorist organization. And it also comes 36 years to the day from when the U.S. captured Panamanian dictator Manuel Noriega, the last time the U.S. made such a bold military action in the region.
             </p>
             <div>
-                <img src="usvz1.gif" alt="image" />
+                <img src="usvz1.gif" alt="image" width="5
+00" />
             </div>
             <h1>
                 THE UNITED NATION HAVE SOLUTION FOR THIS PROBLEM?.
@@ -69,7 +72,7 @@ export default function Home() {
                 During a press conference at his Mar-a-Lago resort in Florida late Saturday morning, President Trump said that the US intended to “run Venezuela” until there is a “safe, proper and judicious transition” of power.
                 This is one of the discussions circurating on the globe,can it be possible?.
             </p>
-            <img src="usvz2.jpg" alt="image" />
+            <img src="usvz2.jpg" alt="image" width="500" />
             <h1>
                 Can this current act bring war between venezuela and USA?
             </h1>
@@ -136,7 +139,7 @@ export default function Home() {
                 <br></br>
                 4.Some European or Latin American leaders warn this precedent could encourage rival powers (like Russia/China) to escalate global tensions.
             </p>
-            <img src="usvz3.webp" alt="image" width="800" />
+            <img src="usvz3.webp" alt="image" width="500" />
             <h1>
                 WHAT ACTIONS MUST THE UNITED NATION TAKE BEFORE IS TOO LATE
             </h1>
@@ -164,7 +167,7 @@ export default function Home() {
                 The UN’s role is to slow things down, bring everyone to the table, protect civilians, and replace force with dialogue and law.
                 That’s often how big crises avoid turning into full wars.
             </p>
-            <img src="usvz4.avif" alt="image"></img>
+            <img src="usvz4.avif" alt="image" width="500"></img>
             <p>
                 The UN cannot enforce decisions by force unless countries volunteer troops.
 

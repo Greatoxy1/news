@@ -1,7 +1,43 @@
 export default function Event() {
     return (
         <div>
-            <h1><a href="https://Globbalnews.com"><code>How innocent kids are soffering because of war . Is there a way to solve global conflict ?    </code></a></h1>
+            <h1>
+                How tentions in Iran are increasing.
+            </h1>
+            <p>
+                Here’s a current snapshot of what’s happening in Iran right now (January 2026) — tension inside the country is high and involves both domestic unrest and geopolitical concerns:
+
+            </p>
+            <p>
+                1.Internet Blackout and Communication Restrictions.
+                <br></br>
+                • The government has imposed a near-total internet shutdown and phone blackouts, aiming to disrupt protest coordination and block reporting from inside the country.
+                <br></br>
+                • Independent monitoring groups note that connectivity is drastically reduced across provinces.
+                <br></br>
+                2. International and Geopolitical Context.
+                <br></br>
+                • After a summer conflict and ongoing regional tensions with the United States, Israel, and other actors, relations remain fraught. 
+                Iran has warned Washington of retaliation if attacked.
+                <br></br>
+                • The broader Middle East environment remains volatile, with analysts warning of potential spillovers affecting markets and security.
+                <br></br>
+                2. Widespread Protests and Crackdowns.
+                <br></br>
+                • Iranian authorities have branded protesters as “enemies of God,” a charge that can carry the death penalty, signaling a hardening stance.
+                <br></br>
+                • Protests quickly spread across many cities, including Tehran, Rasht, Shiraz, and others, with demonstrators calling for political change and economic relief.
+                <br></br>
+                • Nationwide unrest has erupted since late December 2025, initially sparked by severe economic hardship, inflation, and the sharp drop in the value of the rial.
+                <br></br>
+                3. Internet Blackout and Communication Restrictions.
+                <br></br>
+                • Independent monitoring groups note that connectivity is drastically reduced across provinces.
+                <br></br>
+                • The government has imposed a near-total internet shutdown and phone blackouts, aiming to disrupt protest coordination and block reporting from inside the country.
+            </p>
+            <img src="ir1.webp" alt="image" width="500"/>
+            <h1><a href="https://Globbalnews.com"><code>How innocent kids are soffering because of war.  Is there a way to solve global conflicts ?    </code></a></h1>
             <p>
                 There are increasing numbers of Migrants around european continent day by day
                 do to unnecessary War around the Globe.
@@ -14,10 +50,12 @@ export default function Event() {
                 Others are passing true desert and many more by sea ,at the same time hundreds of people
                 lost their life through their journey to europe
             </p>
-            This is one of the dangerous way people are crossing from Morroco to Spain for beter life
-            <h1>
+             <h1>
+            This is one of the dangerous way people are crossing from Morroco to Spain for beter life.
+            <br></br>
                 <a href="https://news.globbalnews.com" target="_blank" rel="noopener noreferrer">
-                    <img src="/News1.jpg" alt="News1" width="600" />
+                    <img src="/News1.jpg" alt="News1" width="400" />
+                    <br></br>
                     Dangerous way of how people risk their lives to enter europe
                 </a>
             </h1>
@@ -40,7 +78,7 @@ export default function Event() {
                 Nevertheless, a concerted EU response is a priority for Italy (which holds the Presidency of the EU from July to December 2014) and is urgently needed given the scale of arrivals at sea.
             </p>
             <div>
-                <a href="migrant2.webp" alt="image" width="600">How people straggle for better life</a>
+                <a href="migrant2.webp" alt="image" width="400">How people straggle for better life</a>
             </div>
             <p>
                 The EU's priority appears to be to prevent people from entering its territory at all costs, even if those people are in need of safety and protection.
@@ -67,7 +105,7 @@ export default function Event() {
                 Nevertheless, a concerted EU response is a priority for Italy (which holds the Presidency of the EU from July to December 2014) and is urgently needed given the scale of arrivals at sea.
             </p>
             <div>
-                <a href="migrant3.avif" alt="image">  How migrants are treated after resque.
+                <a href="migrant3.avif" alt="image" width="400">  How migrants are treated after resque.
                 </a>
             </div>
 
@@ -83,7 +121,7 @@ export default function Event() {
                 In recent years, the European Union has reached agreements with several North African countries aimed at reducing irregular migration.
             </p>
             <div>
-                <a href="migrant1.webp" alt="image">Can illegal migration stop?.</a>
+                <a href="migrant1.webp" alt="image" width="400">Can illegal migration stop?.</a>
             </div>
             <p>
                 🟦 AGAINST the motion (stronger, more realistic position)

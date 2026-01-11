@@ -5,11 +5,15 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Stories from "./components/pages/Stories";
 import Event from "./components/pages/Event";
+import ProductLink from "./components/ProductLink";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <ProductLink/>
+      <Footer/>
 
       <Routes>
         <Route path="/" element={<Home />} />
