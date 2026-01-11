@@ -36,11 +36,10 @@ export default function Home() {
                 The 20-point plan differs from the November 2025 28-point plan in significant ways. The 28-point plan called for Ukraine to withdraw from the remainder of unoccupied Donbas (Donetsk and Luhansk oblasts), for the creation of a demilitarized zone in Donbas that would be internationally recognized as de facto Russian territory, and for the war to freeze along the current frontline in Zaporizhia and Kherson oblasts.[4] The 28-point plan also capped the Ukrainian military during peacetime at 600,000 personnel and called for Ukraine to abandon its efforts to seek NATO membership.
                 The 20-point plan, in contrast, calls for the war to freeze in Luhansk, Donetsk, Zaporizhia, and Kherson oblasts along the frontline as of the date of the agreement’s signing; caps Ukraine’s peacetime military at 800,000; and does not mention Ukraine’s possible NATO membership.
             </p>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2085549921114635"
-                crossorigin="anonymous"></script>
+
             <div>
-                <img src="ru1.webp" alt="image" width="5
-00"/>
+                <img src="ru1.webp" alt="image" width="500"/>
+
             </div>
             <p>
                 The source reportedly stated that Russia’s concerns about the document include the lack of guarantees prohibiting NATO’s eastward expansion, insufficient limits on Ukraine’s peacetime military forces and weapons, the lack of provisions about Ukraine’s neutral status should Ukraine join the EU, and the lack of assurances about the status of the Russian language in Ukraine.
@@ -60,8 +59,8 @@ export default function Home() {
                 The attack comes just more than a month after Trump designated Maduro and his government allies of a foreign terrorist organization. And it also comes 36 years to the day from when the U.S. captured Panamanian dictator Manuel Noriega, the last time the U.S. made such a bold military action in the region.
             </p>
             <div>
-                <img src="usvz1.gif" alt="image" width="5
-00" />
+                <img src="usvz1.gif" alt="image" width="500"/>
+
             </div>
             <h1>
                 THE UNITED NATION HAVE SOLUTION FOR THIS PROBLEM?.

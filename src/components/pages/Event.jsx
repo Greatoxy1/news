@@ -36,7 +36,9 @@ export default function Event() {
                 <br></br>
                 • The government has imposed a near-total internet shutdown and phone blackouts, aiming to disrupt protest coordination and block reporting from inside the country.
             </p>
+            <p>
             <img src="ir1.webp" alt="image" width="500"/>
+             </p>
             <h1><a href="https://Globbalnews.com"><code>How innocent kids are soffering because of war.  Is there a way to solve global conflicts ?    </code></a></h1>
             <p>
                 There are increasing numbers of Migrants around european continent day by day
