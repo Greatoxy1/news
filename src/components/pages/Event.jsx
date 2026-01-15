@@ -1,6 +1,15 @@
 export default function Event() {
     return (
         <div>
+            <h1>Breaking news</h1>
+            <p>
+                Tensions with the United States remain elevated due to the crackdown;
+                 the U.S. has imposed new sanctions on Iranian officials and entities connected with the repression.
+                 U.S. lawmakers publicly debate whether military action has been ruled out,
+                  reflecting uncertainty in Washington over next steps.
+                  Iran briefly closed and then reopened its airspace amid rising fears of a possible military confrontation,
+                   but global diplomatic pressure — especially from Arab states urging restraint — appears to have prevented an immediate escalation.
+            </p>
             <h1>
                 How tentions in Iran are increasing.
             </h1>
