@@ -1,14 +1,16 @@
 export default function Event() {
     return (
         <div>
+            <>
             <h1>Breaking news</h1>
+            </>
             <p>
                 Tensions with the United States remain elevated due to the crackdown;
-                 the U.S. has imposed new sanctions on Iranian officials and entities connected with the repression.
-                 U.S. lawmakers publicly debate whether military action has been ruled out,
-                  reflecting uncertainty in Washington over next steps.
-                  Iran briefly closed and then reopened its airspace amid rising fears of a possible military confrontation,
-                   but global diplomatic pressure — especially from Arab states urging restraint — appears to have prevented an immediate escalation.
+                the U.S. has imposed new sanctions on Iranian officials and entities connected with the repression.
+                U.S. lawmakers publicly debate whether military action has been ruled out,
+                reflecting uncertainty in Washington over next steps.
+                Iran briefly closed and then reopened its airspace amid rising fears of a possible military confrontation,
+                but global diplomatic pressure — especially from Arab states urging restraint — appears to have prevented an immediate escalation.
             </p>
             <h1>
                 How tentions in Iran are increasing.
@@ -26,7 +28,7 @@ export default function Event() {
                 <br></br>
                 2. International and Geopolitical Context.
                 <br></br>
-                • After a summer conflict and ongoing regional tensions with the United States, Israel, and other actors, relations remain fraught. 
+                • After a summer conflict and ongoing regional tensions with the United States, Israel, and other actors, relations remain fraught.
                 Iran has warned Washington of retaliation if attacked.
                 <br></br>
                 • The broader Middle East environment remains volatile, with analysts warning of potential spillovers affecting markets and security.
@@ -46,8 +48,8 @@ export default function Event() {
                 • The government has imposed a near-total internet shutdown and phone blackouts, aiming to disrupt protest coordination and block reporting from inside the country.
             </p>
             <p>
-            <img src="ir1.webp" alt="image" width="500"/>
-             </p>
+                <img src="ir1.webp" alt="image" width="500" />
+            </p>
             <h1><a href="https://Globbalnews.com"><code>How innocent kids are soffering because of war.  Is there a way to solve global conflicts ?    </code></a></h1>
             <p>
                 There are increasing numbers of Migrants around european continent day by day
@@ -61,9 +63,9 @@ export default function Event() {
                 Others are passing true desert and many more by sea ,at the same time hundreds of people
                 lost their life through their journey to europe
             </p>
-             <h1>
-            This is one of the dangerous way people are crossing from Morroco to Spain for beter life.
-            <br></br>
+            <h1>
+                This is one of the dangerous way people are crossing from Morroco to Spain for beter life.
+                <br></br>
                 <a href="https://news.globbalnews.com" target="_blank" rel="noopener noreferrer">
                     <img src="/News1.jpg" alt="News1" width="400" />
                     <br></br>

@@ -27,18 +27,21 @@ export default function Home() {
             </p>
             <div>
 
-                <img src="ru2.png" alt="image" width="500"/>
+                <img src="ru2.png" alt="image" width="500" />
 
             </div>
             <p>
-                The war is an ongoing international conflict between Russia (alongside Russian-backed separatists) and Ukraine which began in February 2014. Following Ukraine's Revolution of Dignity, Russia annexed Ukrainian Crimea and supported pro-Russian separatists fighting the Ukrainian military in the Donbas war. The first eight years of conflict included naval incidents, cyberwarfare, and heightened political tensions.
+                The war is an ongoing international conflict between Russia (alongside Russian-backed separatists) and Ukraine which began in February 2014. Following Ukraine's Revolution of Dignity, Russia annexed Ukrainian Crimea and supported pro-Russian separatists fighting the Ukrainian military in the Donbas war.
+                The first eight years of conflict included naval incidents, cyberwarfare, and heightened political tensions.
                 In February 2022, Russia launched a full-scale invasion of Ukraine in a major escalation of the conflict.
-                The 20-point plan differs from the November 2025 28-point plan in significant ways. The 28-point plan called for Ukraine to withdraw from the remainder of unoccupied Donbas (Donetsk and Luhansk oblasts), for the creation of a demilitarized zone in Donbas that would be internationally recognized as de facto Russian territory, and for the war to freeze along the current frontline in Zaporizhia and Kherson oblasts.[4] The 28-point plan also capped the Ukrainian military during peacetime at 600,000 personnel and called for Ukraine to abandon its efforts to seek NATO membership.
+                The 20-point plan differs from the November 2025 28-point plan in significant ways. The 28-point plan called for Ukraine to withdraw from the remainder of unoccupied Donbas (Donetsk and Luhansk oblasts), for the creation of a demilitarized zone in Donbas that would be internationally recognized as de facto Russian territory,
+                and for the war to freeze along the current frontline in Zaporizhia and Kherson oblasts.
+                [4] The 28-point plan also capped the Ukrainian military during peacetime at 600,000 personnel and called for Ukraine to abandon its efforts to seek NATO membership.
                 The 20-point plan, in contrast, calls for the war to freeze in Luhansk, Donetsk, Zaporizhia, and Kherson oblasts along the frontline as of the date of the agreement’s signing; caps Ukraine’s peacetime military at 800,000; and does not mention Ukraine’s possible NATO membership.
             </p>
 
             <div>
-                <img src="ru1.webp" alt="image" width="500"/>
+                <img src="ru1.webp" alt="image" width="500" />
 
             </div>
             <p>
@@ -58,8 +61,28 @@ export default function Home() {
 
                 The attack comes just more than a month after Trump designated Maduro and his government allies of a foreign terrorist organization. And it also comes 36 years to the day from when the U.S. captured Panamanian dictator Manuel Noriega, the last time the U.S. made such a bold military action in the region.
             </p>
+
+            <h>
+                Diplomatic Relations and Talks
+            </h>
+
+            <p>
+                In a surprising development, the Venezuelan interim government, led by Delcy Rodríguez, has announced exploratory talks with U.S. officials about potentially restoring formal diplomatic ties and reopening consulates after decades of hostile relations.
+                The U.S. Senate passed a resolution limiting further military actions against Venezuela without congressional approval — reflecting some internal U.S. political pushback to unilateral executive action.
+            </p>
+            <h>
+                International Reaction and Regional Impact
+                Global and regional responses.
+            </h>
+            <p>
+                Countries across the Americas have expressed concern or condemnation of the U.S. strikes and military intervention, calling for respect for sovereignty and de-escalation.
+                Russia and other allies of Caracas have publicly urged the U.S. and Venezuela to reduce tensions.
+                Venezuelan officials and state media characterize the U.S. actions as military aggression and violations of international law.
+                 They argue that Washington seeks control over the country’s oil and political system.
+                 Amid ongoing conflict and militia activity, governments have issued travel advisories, and safety risks for U.S. citizens and foreigners in Venezuela have increased.
+            </p>
             <div>
-                <img src="usvz1.gif" alt="image" width="500"/>
+                <img src="usvz1.gif" alt="image" width="500" />
 
             </div>
             <h1>
@@ -75,7 +98,7 @@ export default function Home() {
             <h1>
                 Can this current act bring war between venezuela and USA?
             </h1>
-            <p>
+            <div>
                 Short answer: it’s very unlikely that Trump’s actions would directly lead to a war between the U.S. and Venezuela.
 
                 Here’s a clear breakdown:
@@ -119,7 +142,7 @@ export default function Home() {
 
                 Trump’s actions can increase tension, but war between the U.S. and Venezuela is not a realistic or expected outcome.
 
-            </p>
+            </div>
             <div>
                 <h1>
                     <a href="/trump1.mp4" src="video">WATCH TRUMP'S PRESS CONFERENCE ABOUT THE OPERATION IN VENEZUELA</a>
@@ -203,8 +226,7 @@ export default function Home() {
 
                 Its role would be to stabilize, not control Venezuela.
             </p>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2085549921114635"
-                crossorigin="anonymous"></script>
+
             <h1>
                 <a href="https://shop.globbalnews.com">SPONSORSHIP AND ENQUIRIES ARE AVAILABLE HERE...</a>
             </h1>

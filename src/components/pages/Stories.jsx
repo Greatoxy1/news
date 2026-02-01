@@ -1,6 +1,22 @@
 export function Stories() {
     return (
         <div>
+            <div>
+               <h1>
+                Current popup entertainment events
+               </h1>
+               <p>
+                • Hollywood power list — The Hollywood Reporter has published its 2025 list of the 100 Most Powerful Women in Entertainment, highlighting the leading figures shaping film and TV today.
+                editors consider portfolio sizes, box office, series loads, viewership, awards, deals, employees overseen, revenue generated, platform subscriber counts, spending power and, crucially, whether we’d pick up their call or send them to voicemail.
+                In THR’s annual survey of the most powerful females in entertainment,
+                It might be the end-of-year euphoria talking, but the most influential women in Hollywood sound downright bullish on the industry’s future. 
+                After another wild year for the industry, the women making the biggest impact across film and television reveal their predictions for Hollywood 2026,
+                 Paul Thomas Anderson’s One Battle After Another, which hasn’t exactly overperformed at the multiplex, has proved its value as the most critically lauded film of the year and a formidable Oscar frontrunner.
+                 More than $4 billion ticket sales,while Weapons ($268 million) and Sinners ($367 million) to IP plays like A Minecraft Movie ($957 million).
+                 That is the current lead studio and she's willing to win more awards.
+               </p>
+               <img src="pamela2.jpg" alt="image" width="400" />
+            </div>
             <h1>
                 Entertainments are popping up on this platform
                 across over the world.
