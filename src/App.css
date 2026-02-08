@@ -5,3 +5,7 @@
 .App-headline {
   color: var(--color-primary);
 }
+.logo {
+  height: 60px;
+  width: auto;
+}

@@ -62,24 +62,24 @@ export default function Home() {
                 The attack comes just more than a month after Trump designated Maduro and his government allies of a foreign terrorist organization. And it also comes 36 years to the day from when the U.S. captured Panamanian dictator Manuel Noriega, the last time the U.S. made such a bold military action in the region.
             </p>
 
-            <h>
+            <h1>
                 Diplomatic Relations and Talks
-            </h>
+            </h1>
 
             <p>
                 In a surprising development, the Venezuelan interim government, led by Delcy Rodríguez, has announced exploratory talks with U.S. officials about potentially restoring formal diplomatic ties and reopening consulates after decades of hostile relations.
                 The U.S. Senate passed a resolution limiting further military actions against Venezuela without congressional approval — reflecting some internal U.S. political pushback to unilateral executive action.
             </p>
-            <h>
+            <h1>
                 International Reaction and Regional Impact
                 Global and regional responses.
-            </h>
+            </h1>
             <p>
                 Countries across the Americas have expressed concern or condemnation of the U.S. strikes and military intervention, calling for respect for sovereignty and de-escalation.
                 Russia and other allies of Caracas have publicly urged the U.S. and Venezuela to reduce tensions.
                 Venezuelan officials and state media characterize the U.S. actions as military aggression and violations of international law.
-                 They argue that Washington seeks control over the country’s oil and political system.
-                 Amid ongoing conflict and militia activity, governments have issued travel advisories, and safety risks for U.S. citizens and foreigners in Venezuela have increased.
+                They argue that Washington seeks control over the country’s oil and political system.
+                Amid ongoing conflict and militia activity, governments have issued travel advisories, and safety risks for U.S. citizens and foreigners in Venezuela have increased.
             </p>
             <div>
                 <img src="usvz1.gif" alt="image" width="500" />

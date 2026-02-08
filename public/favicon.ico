@@ -1,0 +1,3 @@
+<header className="site-header">
+  <img src={Logo} alt="Logo" className="Logo" />
+</header>

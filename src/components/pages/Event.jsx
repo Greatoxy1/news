@@ -197,9 +197,9 @@ export default function Event() {
 
                 Quick, predictable enforcement removes incentives to stay illegally.
             </p>
-            <h>
+            <h1>
                 <a href="https://shop.globbalnews.com">ARE YOU LOOKING FOR BUISNESS ASSISTANCE? ,OR ADVERT FOR YOUR COMPANY OR BUISNESS.JUST FOLLOW US FORE MORE.</a>
-            </h>
+            </h1>
         </div>
     )
 }
