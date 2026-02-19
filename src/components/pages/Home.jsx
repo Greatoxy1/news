@@ -12,6 +12,7 @@ export default function Home() {
             <h1>
                 How fear and panic of global war is affecting the peace and freedom of the people.
             </h1>
+            <a href="https://business.globbalnews.com">Follow our business pages for business sections</a>
             <p>
                 In this morden world, peace has become something difficult to get irrespective your position.
                 The most sadness things happening arround the globe is that innocent childreen are suffering, pregnant women and old people are dying, but what are the solutions for this problems.

@@ -39,6 +39,7 @@ export default function About() {
             <h1>
                 <a href="https://blog.globbalnews.com">Available news for you.</a>
             </h1>
+            <a href="https://business.globbalnews.com">Follow our business pages for business sections</a>
         </div>
     )
 }
