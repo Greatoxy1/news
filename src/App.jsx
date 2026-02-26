@@ -6,8 +6,6 @@ import About from "./components/pages/About";
 import Stories from "./components/pages/Stories";
 import Event from "./components/pages/Event";
 import News from "./components/pages/News";
-import ProductLink from "./components/ProductLink";
-import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,8 +13,6 @@ function App() {
 
     <Router>
       <Navbar />
-      <ProductLink/>
-      <Footer/>
 
       <Routes>
         <Route path="/" element={<Home />} />

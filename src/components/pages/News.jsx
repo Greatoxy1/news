@@ -1,9 +1,9 @@
 export default function News(){
     return(
         <div>
-            <h1>
+            <h2>
                 Breaking news : Libya is plannig for election
-            </h1>
+            </h2>
             <a href="https://business.globbalnews.com">Follow our chanels for business informations</a>
             <p>
                 current and reliable snapshot of the situation in Libya (as of mid-February 2026), based on multiple recent reports and UN briefings:  Libya Political & Governance Situation Political deadlock persists.
@@ -30,9 +30,9 @@ export default function News(){
                        Multiple UN bodies are urging political compromise, better human rights protections, and structural reforms to prevent further fragmentation.
                        🧾 In Summary Libya remains deeply fragmented politically, economically, and socially. There's no unified government or broad political agreement yet, and living conditions are deteriorating for many civilians. Security is unstable, with organised crime and migrant abuses.
             </p>
-            <h1>
+            <h2>
                 Sad news hit Libya
-            </h1>
+            </h2>
             <p>
                 Libya is currently experiencing more tentions after the death of son of former leader Muamar Gaddafi.
                 A key recent development is the killing of Saif al‑Islam Gaddafi, son of former leader Muammar Gaddafi, on 3 February 2026 in Zintan.
@@ -46,18 +46,18 @@ export default function News(){
                    Efforts to hold long‑delayed national elections and implement a UN‑led political roadmap have repeatedly stalled. The United Nations and international mediators continue to urge Libyan leaders to revive political dialogue and unity.
             </p>
             <img src="Gaddafi.png" alt="image" width="450"/>
-            <h1>
+            <h2>
                 Humanitarian and Social Context
-            </h1>
+            </h2>
             <p>
                 Libya remains a major transit point for migrants and asylum seekers. Hundreds of thousands are in need of humanitarian support, with many facing exploitation, detention, or human rights abuses.
                 Fragmented justice institutions and lack of due process undermine accountability. Human rights groups highlight pervasive abuses, arbitrary detention, and limited protection for civilians and migrants.
                 Damage to essential infrastructure—water, electricity, health facilities—and high unemployment contribute to social hardship and economic stagnation for many Libyans.
 
             </p>
-            <h1>
+            <h2>
                 Economic Developments
-            </h1>
+            </h2>
             <p>
                 The economy is projected to grow in 2025‑2026 as oil output recovers. However, growth remains heavily dependent on hydrocarbons, and uncertainties tied to political instability remain a key risk.
                 Despite instability, Libya’s oil and gas sector—the backbone of the economy—is drawing renewed international interest. 

@@ -2,7 +2,20 @@ export default function Event() {
     return (
         <div>
             <>
-            <h1>Breaking news</h1>
+            <h2>Breaking news</h2>
+            <h2>
+                Nuclear talks and U.S.–Iran tensions
+            </h2>
+            <p>
+                Iran and the U.S. are in a critical third round of nuclear negotiations in Geneva. 
+                Tehran says a deal is “within reach” if diplomacy is prioritized; the U.S. demands limits and verification — but sanctions relief remains unresolved.
+                In parallel, there’s a heightened U.S. military presence in the region and tough rhetoric from Washington about Iran’s missile and nuclear programs.
+                Iran and the United States are holding a new (third) round of nuclear negotiations in Geneva, Switzerland, this week. These are indirect talks, 
+                typically mediated by Oman, and involve senior representatives from both capitals.
+
+                Iranian Foreign Minister Abbas Araghchi is leading Tehran’s delegation, while the U.S. side includes special envoy Steve Witkoff and senior advisers.
+                The negotiations aim to resolve longstanding disputes over Iran’s nuclear program — originally outlined in the 2015 Joint Comprehensive Plan of Action (JCPOA) — and return to a more stable diplomatic framework.
+            </p>
             </>
             <p>
                 Tensions with the United States remain elevated due to the crackdown;
@@ -12,9 +25,9 @@ export default function Event() {
                 Iran briefly closed and then reopened its airspace amid rising fears of a possible military confrontation,
                 but global diplomatic pressure — especially from Arab states urging restraint — appears to have prevented an immediate escalation.
             </p>
-            <h1>
+            <h2>
                 How tentions in Iran are increasing.
-            </h1>
+            </h2>
             <p>
                 Here’s a current snapshot of what’s happening in Iran right now (January 2026) — tension inside the country is high and involves both domestic unrest and geopolitical concerns:
 
@@ -50,7 +63,7 @@ export default function Event() {
             <p>
                 <img src="ir1.webp" alt="image" width="500" />
             </p>
-            <h1><a href="https://Globbalnews.com"><code>How innocent kids are soffering because of war.  Is there a way to solve global conflicts ?    </code></a></h1>
+            <h2><a href="https://Globbalnews.com"><code>How innocent kids are soffering because of war.  Is there a way to solve global conflicts ?    </code></a></h2>
             <p>
                 There are increasing numbers of Migrants around european continent day by day
                 do to unnecessary War around the Globe.
@@ -63,7 +76,7 @@ export default function Event() {
                 Others are passing true desert and many more by sea ,at the same time hundreds of people
                 lost their life through their journey to europe
             </p>
-            <h1>
+            <h2>
                 This is one of the dangerous way people are crossing from Morroco to Spain for beter life.
                 <br></br>
                 <a href="https://news.globbalnews.com" target="_blank" rel="noopener noreferrer">
@@ -71,7 +84,7 @@ export default function Event() {
                     <br></br>
                     Dangerous way of how people risk their lives to enter europe
                 </a>
-            </h1>
+            </h2>
             <p>
                 The European Union is in the process of reforming its migration, asylum, integration,
                 and border management policies, but critics say any new rules should address its tactics that facilitate  migrant pushbacks and deaths at sea.
@@ -197,9 +210,9 @@ export default function Event() {
 
                 Quick, predictable enforcement removes incentives to stay illegally.
             </p>
-            <h1>
+            <h2>
                 <a href="https://shop.globbalnews.com">ARE YOU LOOKING FOR BUISNESS ASSISTANCE? ,OR ADVERT FOR YOUR COMPANY OR BUISNESS.JUST FOLLOW US FORE MORE.</a>
-            </h1>
+            </h2>
         </div>
     )
 }

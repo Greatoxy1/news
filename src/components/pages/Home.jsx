@@ -9,9 +9,12 @@ export default function Home() {
                     content="Latest breaking news, entertainment, sports, blog and world updates."
                 />
             </Helmet>
-            <h1>
+            <h2>
+            <a href="Event">Nuclear talks and U.S.–Iran tensions</a>
+            </h2>
+            <h2>
                 How fear and panic of global war is affecting the peace and freedom of the people.
-            </h1>
+            </h2>
             <a href="https://business.globbalnews.com">Follow our business pages for business sections</a>
             <p>
                 In this morden world, peace has become something difficult to get irrespective your position.
@@ -50,9 +53,9 @@ export default function Home() {
                 Bloomberg reported that the source stated that the Kremlin also wants provisions on frozen Russian assets and the removal of Western sanctions in the peace proposal. The Kremlin has repeatedly called for any future peace settlement to eliminate the alleged “root causes” of the war, which the Kremlin defines as NATO expansion and Ukraine’s alleged discrimination against Russian speakers.
                 [12] Russia’s demonstrated unwillingness to engage in compromises and its unwavering commitment to achieving its original war goals from 2022 suggest that the prospects for this peace agreement to end the war remain low at this time.
             </p>
-            <h1>
+            <h2>
                 HOW TENSION IS INCREASING BETWEEN USA AND VENEZUELA
-            </h1>
+            </h2>
             <p>
                 “The Secretary-General is deeply alarmed by the recent escalation in Venezuela, culminating with today’s United States military action in the country, which has potential worrying implications for the region,” said a statement issued by UN Spokesperson Stéphane Dujarric.
                 US President Donald Trump made the announcement on social media, and the US Attorney General said Mr. Maduro and his wife would face “the full wrath of American justice on American soil, in American courts,” based on a 2020 narcoterrorism indictment during the first Trump administration, in New York.
@@ -63,18 +66,18 @@ export default function Home() {
                 The attack comes just more than a month after Trump designated Maduro and his government allies of a foreign terrorist organization. And it also comes 36 years to the day from when the U.S. captured Panamanian dictator Manuel Noriega, the last time the U.S. made such a bold military action in the region.
             </p>
 
-            <h1>
+            <h2>
                 Diplomatic Relations and Talks
-            </h1>
+            </h2>
 
             <p>
                 In a surprising development, the Venezuelan interim government, led by Delcy Rodríguez, has announced exploratory talks with U.S. officials about potentially restoring formal diplomatic ties and reopening consulates after decades of hostile relations.
                 The U.S. Senate passed a resolution limiting further military actions against Venezuela without congressional approval — reflecting some internal U.S. political pushback to unilateral executive action.
             </p>
-            <h1>
+            <h2>
                 International Reaction and Regional Impact
                 Global and regional responses.
-            </h1>
+            </h2>
             <p>
                 Countries across the Americas have expressed concern or condemnation of the U.S. strikes and military intervention, calling for respect for sovereignty and de-escalation.
                 Russia and other allies of Caracas have publicly urged the U.S. and Venezuela to reduce tensions.
@@ -86,26 +89,30 @@ export default function Home() {
                 <img src="usvz1.gif" alt="image" width="500" />
 
             </div>
-            <h1>
+            <h2>
                 THE UNITED NATION HAVE SOLUTION FOR THIS PROBLEM?.
-            </h1>
+            </h2>
             <p>
                 The UN Secretary-General António Guterres has said he is “deeply alarmed” over the standoff between the United States and Venezuela in recent months, which culminated on Saturday morning in the capture of President Nicolás Maduro by US special forces.
                 The US operation began with overnight strikes in and around the capital, Caracas. Venezuela has declared a state of national emergency, with casualty figures and some other acts.
                 During a press conference at his Mar-a-Lago resort in Florida late Saturday morning, President Trump said that the US intended to “run Venezuela” until there is a “safe, proper and judicious transition” of power.
                 This is one of the discussions circurating on the globe,can it be possible?.
             </p>
+            <a href="Stories">Current entertainment icons</a>
+            <p>
+            <br></br>
+             </p>
             <img src="usvz2.jpg" alt="image" width="500" />
-            <h1>
+            <h2>
                 Can this current act bring war between venezuela and USA?
-            </h1>
+            </h2>
             <div>
                 Short answer: it’s very unlikely that Trump’s actions would directly lead to a war between the U.S. and Venezuela.
 
                 Here’s a clear breakdown:
-                <h1>
+                <h2>
                     What people usually mean by “Trump’s act”
-                </h1>
+                </h2>
                 When this comes up, it’s usually about Trump’s policies toward Venezuela, such as:
                 <br></br>
                 1.Economic sanctions on the Maduro government
@@ -115,9 +122,9 @@ export default function Home() {
                 3.Restrictions or changes related to Venezuelan oil.
 
                 These are coercive political and economic tools, not military ones.
-                <h1>
+                <h2>
                     Why a war is unlikely
-                </h1>
+                </h2>
                 .1. No strong U.S. incentive: Venezuela does not pose a direct military threat to the U.S.
                 <br></br>
                 .2. High cost, low benefit: A war would be expensive, risky, and unpopular domestically and internationally.
@@ -125,9 +132,9 @@ export default function Home() {
                 .3 . History matters: Even during Trump’s first presidency—when rhetoric was very tough—no war happened.
                 <br></br>
                 .4. International backlash: Military action would likely face strong opposition from allies and international organizations.
-                <h1>
+                <h2>
                     What could realistically happen
-                </h1>
+                </h2>
                 <br></br>
                 .1. Increased economic pressure on Venezuela
                 <br></br>
@@ -135,9 +142,9 @@ export default function Home() {
                 <br></br>
                 .3.Tensions or aggressive language, but not armed conflict.
                 <br></br>
-                <h1>
+                <h2>
                     What would make war more likely (still unlikely)
-                </h1>
+                </h2>
                 Only extreme events—like attacks on U.S. personnel, a major regional conflict, or a complete collapse causing widespread instability—could raise the risk, and none of those are currently inevitable.
 
 
@@ -145,14 +152,14 @@ export default function Home() {
 
             </div>
             <div>
-                <h1>
-                    <a href="/trump1.mp4" src="video">WATCH TRUMP'S PRESS CONFERENCE ABOUT THE OPERATION IN VENEZUELA</a>
-                </h1>
+                <p>
+                <a href="/trump1.mp4" src="video">WATCH TRUMP'S PRESS CONFERENCE ABOUT THE OPERATION IN VENEZUELA</a>
+                </p>
             </div>
-            <h1>
+            <h2>
                 The U.S. has already carried out significant military action in Venezuela.
                 And what's the out come.
-            </h1>
+            </h2>
             <p>
                 1.U.S. forces raided Venezuelan territory and captured President Nicolás Maduro and his wife, bringing them to New York on charges including drug trafficking.
                 <br></br>
@@ -163,9 +170,9 @@ export default function Home() {
                 4.Some European or Latin American leaders warn this precedent could encourage rival powers (like Russia/China) to escalate global tensions.
             </p>
             <img src="usvz3.webp" alt="image" width="500" />
-            <h1>
+            <h3>
                 WHAT ACTIONS MUST THE UNITED NATION TAKE BEFORE IS TOO LATE
-            </h1>
+            </h3>
             <p>
                 Domestic pressure inside the U.S.
 
@@ -202,7 +209,7 @@ export default function Home() {
                 ➡️ The UN cannot arrest or punish powerful states easily.
 
             </p>
-            <h1>
+            <h2>
                 5. COUNTRIES WITH VETO POWERS.
                 <br></br>
                 1.United States
@@ -214,7 +221,7 @@ export default function Home() {
                 4.United Kindom
                 <br></br>
                 5.France
-            </h1>
+            </h2>
             <p>
                 Each one has veto power, meaning one country alone can block any decision.
 
@@ -227,10 +234,12 @@ export default function Home() {
 
                 Its role would be to stabilize, not control Venezuela.
             </p>
-
-            <h1>
+                <a href="News">How Saif al‑Islam Gaddafi was killed</a>
+               <br></br>
+               <br></br>
+            
                 <a href="https://shop.globbalnews.com">SPONSORSHIP AND ENQUIRIES ARE AVAILABLE HERE...</a>
-            </h1>
+            
         </div>
     )
 }

@@ -2,9 +2,9 @@ export function Stories() {
     return (
         <div>
             <div>
-               <h1>
+               <h2>
                 Current popup entertainment events
-               </h1>
+               </h2>
                <p>
                 • Hollywood power list — The Hollywood Reporter has published its 2025 list of the 100 Most Powerful Women in Entertainment, highlighting the leading figures shaping film and TV today.
                 editors consider portfolio sizes, box office, series loads, viewership, awards, deals, employees overseen, revenue generated, platform subscriber counts, spending power and, crucially, whether we’d pick up their call or send them to voicemail.
@@ -17,10 +17,10 @@ export function Stories() {
                </p>
                <img src="pamela2.jpg" alt="image" width="400" />
             </div>
-            <h1>
+            <h2>
                 Entertainments are popping up on this platform
                 across over the world.
-            </h1>
+            </h2>
             <div>
                 Africa is having multi talented and well train kids
                 who perform both acrobatic and other fantastic arts.
@@ -61,9 +61,9 @@ export function Stories() {
                 </a>
 
             </h>
-            <h1>
+            <h2>
                 How the world embrasses gymnastics
-            </h1>
+            </h2>
             <p>
                 The word gymnastics derives from the common Greek adjective γυμνός (gymnos),[4] by way of the related verb γυμνάζω (gymnazo),
                 whose meaning is to "train naked", "train in gymnastic exercise", generally "to train, to exercise".
