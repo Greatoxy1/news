@@ -1,22 +1,41 @@
 export default function Event() {
     return (
         <div>
-            <>
+            
             <h2>Breaking news</h2>
+
+            <h2>🔥 Major Escalations in Middle-East</h2>
+            <img src="iran.png" alt="image" width="500"/>
+            <p>
+                U.S. and Israel launched coordinated strikes on Iran early on Feb 28, 2026, targeting Iranian military and strategic sites.
+                Israel described its action as “pre-emptive,” while the U.S. supported the operation militarily.
+                Explosions were heard in Tehran, and sirens were activated across Israel.
+                Iran responded with missiles and drone attacks across the region, striking or attempting to strike U.S. and Israeli positions,
+                including air bases in Bahrain, Kuwait and other Gulf states.
+                As a direct result of this escalation ,Airspace closures and flight disruptions are widespread across Iran, Iraq,
+                Israel and parts of the Gulf, leading major airlines to reroute or cancel flights.
+                Civilian areas have been affected, including reports of strikes damaging buildings and infrastructure in Tehran and the wider region.
+                Governments — including Italy and other European states — have issued travel warnings or urged citizens to leave Iran and take precautions throughout the Middle East.
+                Diplomatic efforts to resolve underlying issues were underway just before this escalation. The United States and Iran had completed another round of nuclear negotiations,
+                mediated by Oman and other parties, with plans continuing.
+                However, the airstrikes have disrupted or overshadowed these talks,
+                with regional diplomats (including from Oman and other Gulf states) expressing concern that military action undermines ongoing negotiations and risks broader conflict.
+                Many international leaders are now calling for restraint, urgent diplomacy, and a rapid de-escalation of tensions.
+            </p>
+            <img src="iran1.png" alt="image" width="500"/>
             <h2>
                 Nuclear talks and U.S.–Iran tensions
             </h2>
             <p>
-                Iran and the U.S. are in a critical third round of nuclear negotiations in Geneva. 
+                Iran and the U.S. are in a critical third round of nuclear negotiations in Geneva.
                 Tehran says a deal is “within reach” if diplomacy is prioritized; the U.S. demands limits and verification — but sanctions relief remains unresolved.
                 In parallel, there’s a heightened U.S. military presence in the region and tough rhetoric from Washington about Iran’s missile and nuclear programs.
-                Iran and the United States are holding a new (third) round of nuclear negotiations in Geneva, Switzerland, this week. These are indirect talks, 
+                Iran and the United States are holding a new (third) round of nuclear negotiations in Geneva, Switzerland, this week. These are indirect talks,
                 typically mediated by Oman, and involve senior representatives from both capitals.
 
                 Iranian Foreign Minister Abbas Araghchi is leading Tehran’s delegation, while the U.S. side includes special envoy Steve Witkoff and senior advisers.
                 The negotiations aim to resolve longstanding disputes over Iran’s nuclear program — originally outlined in the 2015 Joint Comprehensive Plan of Action (JCPOA) — and return to a more stable diplomatic framework.
             </p>
-            </>
             <p>
                 Tensions with the United States remain elevated due to the crackdown;
                 the U.S. has imposed new sanctions on Iranian officials and entities connected with the repression.
@@ -60,9 +79,12 @@ export default function Event() {
                 <br></br>
                 • The government has imposed a near-total internet shutdown and phone blackouts, aiming to disrupt protest coordination and block reporting from inside the country.
             </p>
+
+
             <p>
                 <img src="ir1.webp" alt="image" width="500" />
             </p>
+
             <h2><a href="https://Globbalnews.com"><code>How innocent kids are soffering because of war.  Is there a way to solve global conflicts ?    </code></a></h2>
             <p>
                 There are increasing numbers of Migrants around european continent day by day

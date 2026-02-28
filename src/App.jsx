@@ -6,11 +6,11 @@ import About from "./components/pages/About";
 import Stories from "./components/pages/Stories";
 import Event from "./components/pages/Event";
 import News from "./components/pages/News";
-
+import ProductLink from "./components/ProductLink";
 function App() {
   return (
     <>
-
+   <ProductLink/>
     <Router>
       <Navbar />
 

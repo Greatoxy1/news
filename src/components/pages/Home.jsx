@@ -3,19 +3,19 @@ export default function Home() {
     return (
         <div>
             <Helmet>
-                <title>Breaking News Today | Global News</title>
+                <title>Breaking News Today | Globbal News</title>
                 <meta
                     name="description"
                     content="Latest breaking news, entertainment, sports, blog and world updates."
                 />
             </Helmet>
-            <h2>
-            <a href="Event">Nuclear talks and U.S.–Iran tensions</a>
-            </h2>
+
             <h2>
                 How fear and panic of global war is affecting the peace and freedom of the people.
             </h2>
+            <h2>
             <a href="https://business.globbalnews.com">Follow our business pages for business sections</a>
+            </h2>
             <p>
                 In this morden world, peace has become something difficult to get irrespective your position.
                 The most sadness things happening arround the globe is that innocent childreen are suffering, pregnant women and old people are dying, but what are the solutions for this problems.
