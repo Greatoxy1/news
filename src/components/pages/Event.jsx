@@ -1,11 +1,61 @@
 export default function Event() {
     return (
         <div>
-            
-            <h2>Breaking news</h2>
+
+            <h2>🔥Breaking news🔥</h2>
+            <h2>📰 Supreme Leader Ayatollah Ali Khamenei confirmed killed</h2>
+            <img src="ay2.png" alt="image" width="500" />
+            <p>
+                Iran’s state media and international outlets report that Ayatollah Ali Khamenei, Iran’s long-time supreme leader,
+                has died following a joint U.S.–Israeli air offensive on Iranian leadership targets.
+                The strikes reportedly also killed top military commanders including Iran’s Armed Forces Chief of Staff, creating a major power vacuum.
+                Iran has launched retaliatory missile strikes against Israeli and U.S. military bases in the region, vowing “no leniency” and threatening further action.
+
+                The fighting has involved attacks on multiple bases and military sites and has sparked tension across the Gulf.
+                The war in Middle-East has cause many death and destruction on the continent.
+                A missile strike hit a girls’ elementary school in Minab, southern Iran, with reports of at least 148 killed and many injured, making it one of the deadliest incidents so far.
+                Broader conflict has caused significant infrastructure damage and civilian suffering throughout several Iranian provinces.
+                Iran is preparing to form a temporary leadership council to govern in the absence of a supreme leader, with officials including President Masoud Pezeshkian and judicial figures stepping in.
+                The Assembly of Experts will later designate a new Supreme Leader under Iran’s constitution.
+                The broader region, including Gulf states like the UAE, Qatar, and Bahrain, has reported involvement or repercussions from Iranian missile actions.
+
+                Global concern is rising over potential wider escalation beyond the Middle East.
+            </p>
+            <img src="ay1.png" alt="image" width="500" />
+            <h2>🗓 Timeline of Significant Events (Feb 27 – Mar 1, 2026)</h2>
+            <p>
+                📆 Thursday, February 27, 2026
+
+                Preparation for military action: Intelligence indicated that a joint U.S.–Israeli offensive was imminent, with heightened alerts at Middle East U.S. embassies and defense readouts pointing to a possible coordinated strike.
+                📆 Friday, February 28, 2026 — Day of the Joint Strikes
+
+                Operation “Epic Fury” launched:
+                The United States and Israel initiated a large coordinated military strike across Iran, targeting military infrastructure, nuclear-related facilities, air defenses, and leadership compounds.
+                Multiple high-value targets hit:
+                Attacks focused on Tehran and other cities like Isfahan, Natanz, and Fordow — with official statements describing suppression of Iranian air defenses followed by follow-on strikes.
+                Iranian forces fired ballistic missiles, drones, and rocket salvos toward Israeli territory, U.S. military bases in the Gulf, and other regional assets in retaliation.
+                Casualties and strikes:
+                Reports emerged of significant military and civilian casualties inside Iran, including at facilities and some urban areas.
+                Israeli and U.S. expectations:
+                Officials suggested that the air operations would continue for several days and possibly up to a week.
+                📆 Saturday, February 29 – Sunday, March 1, 2026
+                March 1, 2026 — Critical Escalation
+
+                Confirmation of Supreme Leader’s death:
+                Iran’s state media officially announced that Ayatollah Ali Khamenei was killed in the strikes.
+                This was confirmed by international outlets and U.S. and Israeli officials.
+                Temporary leadership appointed:
+                With Khamenei gone, Iran’s government set up a temporary leadership council to manage state affairs while the constitutional Assembly of Experts prepares to select a new supreme leader.
+                Wider retaliation:
+                Iran continued its missile and drone attacks targeting Israel and U.S. bases in the Gulf — with neighboring countries’ air defenses (like in Saudi Arabia, the UAE, Qatar, and Bahrain) intercepting many incoming projectiles.
+                Societal impact inside Iran:
+                There are reports of protests, mourning, and unrest across Iranian cities following the supreme leader’s death, while Iranian forces vow further strikes.
+                we wish Iranians and the Middle-East well.
+            </p>
 
             <h2>🔥 Major Escalations in Middle-East</h2>
-            <img src="iran.png" alt="image" width="500"/>
+            <img src="iran.png" alt="image" width="500" />
+
             <p>
                 U.S. and Israel launched coordinated strikes on Iran early on Feb 28, 2026, targeting Iranian military and strategic sites.
                 Israel described its action as “pre-emptive,” while the U.S. supported the operation militarily.
@@ -22,7 +72,7 @@ export default function Event() {
                 with regional diplomats (including from Oman and other Gulf states) expressing concern that military action undermines ongoing negotiations and risks broader conflict.
                 Many international leaders are now calling for restraint, urgent diplomacy, and a rapid de-escalation of tensions.
             </p>
-            <img src="iran1.png" alt="image" width="500"/>
+            <img src="iran1.png" alt="image" width="500" />
             <h2>
                 Nuclear talks and U.S.–Iran tensions
             </h2>
@@ -232,9 +282,9 @@ export default function Event() {
 
                 Quick, predictable enforcement removes incentives to stay illegally.
             </p>
-            <h2>
+            <h3>
                 <a href="https://shop.globbalnews.com">ARE YOU LOOKING FOR BUISNESS ASSISTANCE? ,OR ADVERT FOR YOUR COMPANY OR BUISNESS.JUST FOLLOW US FORE MORE.</a>
-            </h2>
+            </h3>
         </div>
     )
 }
