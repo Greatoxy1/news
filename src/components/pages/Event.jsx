@@ -3,6 +3,30 @@ export default function Event() {
         <div>
 
             <h2>🔥Breaking news🔥</h2>
+
+            <h2>Is Ayatollah Alireza Arafi kield ?</h2>
+            <img src="aya1.png" alt="image" width="400"/>
+            <p>
+                After Supreme Leader Ayatollah Ali Khamenei was killed
+                A three-member interim leadership council is now governing Iran temporarily. The council includes:
+                • Iranian President Masoud Pezeshkian
+                • Head of the judiciary Gholam-Hossein Mohseni-Eje’i
+                • Ayatollah Alireza Arafi, appointed as the clerical jurist on the council.
+
+                This council is carrying out the duties of the supreme leader until a permanent successor is chosen by Iran’s 88-member Assembly of Experts.
+
+                Iranian leaders have said the constitutional process is underway and a new supreme leader could be selected within days, though exact timing is uncertain.
+                As of the latest verified reporting today, there is no confirmed credible evidence that Alireza Arafi has been killed.
+                Most reputable news sources indicate he is alive and serving on Iran’s interim leadership council after the death of Supreme Leader Ayatollah Ali Khamenei.
+                Arafi has been appointed to Iran’s three-member interim leadership council, alongside the president and the head of the judiciary, to oversee the country until a new supreme leader is chosen.
+
+                Multiple international news reports confirm his role in that interim leadership and make no mention of his death.
+
+                He is described as a senior cleric and jurist with ongoing duties in the transitional council.
+                Some unverified social media posts and fringe claims are circulating online about Arafi being killed shortly after his appointment, but credible news sources have not confirmed any such death.
+
+                Official and established outlets continue to report him as part of Iran’s leadership transition process.
+            </p>
             <h2>📰 Supreme Leader Ayatollah Ali Khamenei confirmed killed</h2>
             <img src="ay2.png" alt="image" width="500" />
             <p>
