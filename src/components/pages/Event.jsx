@@ -3,9 +3,20 @@ export default function Event() {
         <div>
 
             <h2>🔥Breaking news🔥</h2>
+            <h2>Lebanon Hezbollah group is on mission with Israel</h2>
+            <p>
+                Iran-backed groups like Hezbollah in Lebanon have engaged in exchanges with Israeli forces, expanding the theater of conflict.
 
-            <h2>Is Ayatollah Alireza Arafi kield ?</h2>
-            <img src="aya1.png" alt="image" width="400"/>
+                The Strait of Hormuz — a crucial global shipping route — faces disruptions and heightened risk, with Iran warning it could halt passage.
+
+                International actors, including the United Nations, have warned of broader regional war and urged restraint.
+                Iranian officials, including senior security figures, have publicly rejected resuming negotiations with the U.S. despite ongoing hostilities.
+
+                Conflicting reports have circulated about the status of Iran’s Supreme Leader; many sources maintain official Iranian statements deny his death.
+            </p>
+
+            <h2>Is Ayatollah Alireza Arafi killed ?</h2>
+            <img src="aya1.png" alt="image" width="400" />
             <p>
                 After Supreme Leader Ayatollah Ali Khamenei was killed
                 A three-member interim leadership council is now governing Iran temporarily. The council includes:
