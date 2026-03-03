@@ -3,7 +3,7 @@ export default function Home() {
     return (
         <div>
             <Helmet>
-                <title>Breaking News Today | Globbal News</title>
+                <title>Breaking News Today | GlobbalNews.com</title>
                 <meta
                     name="description"
                     content="Latest breaking news, entertainment, sports, blog and world updates."
