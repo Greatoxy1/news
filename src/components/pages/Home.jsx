@@ -3,13 +3,23 @@ export default function Home() {
     return (
         <div>
             <Helmet>
-                <title>Breaking News Today | GlobbalNews.com</title>
+                <title>🔥Breaking News Today 🔥| GlobbalNews.com</title>
                 <meta
                     name="description"
                     content="Latest breaking news, entertainment, sports, blog and world updates."
                 />
             </Helmet>
-
+                <h2>
+                    <a href="https://europe.globbalnews.com">
+                    <p>
+                    🔥Breaking News 🔥
+                    </p>
+                    <img src="eu.png" alt="image" width="400"/>
+                    <p>
+                        Trump is pushing to use UK and Europeans Military bases against Iran.
+                    </p>
+                    </a>
+                </h2>
             <h2>
                 How fear and panic of global war is affecting the peace and freedom of the people.
             </h2>
