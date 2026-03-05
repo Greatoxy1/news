@@ -16,7 +16,7 @@ export default function Event() {
             </p>
 
             <h2>Is Ayatollah Alireza Arafi killed ?</h2>
-            <img src="aya1.png" alt="image" width="400" />
+            <img src="aya1.png" alt="image" width="350" />
             <p>
                 After Supreme Leader Ayatollah Ali Khamenei was killed
                 A three-member interim leadership council is now governing Iran temporarily. The council includes:
@@ -187,7 +187,7 @@ export default function Event() {
                 This is one of the dangerous way people are crossing from Morroco to Spain for beter life.
                 <br></br>
                 <a href="https://news.globbalnews.com" target="_blank" rel="noopener noreferrer">
-                    <img src="/News1.jpg" alt="News1" width="400" />
+                    <img src="/News1.jpg" alt="News1" width="350" />
                     <br></br>
                     Dangerous way of how people risk their lives to enter europe
                 </a>
@@ -211,7 +211,7 @@ export default function Event() {
                 Nevertheless, a concerted EU response is a priority for Italy (which holds the Presidency of the EU from July to December 2014) and is urgently needed given the scale of arrivals at sea.
             </p>
             <div>
-                <a href="migrant2.webp" alt="image" width="400">How people straggle for better life</a>
+                <a href="migrant2.webp" alt="image" width="350">How people straggle for better life</a>
             </div>
             <p>
                 The EU's priority appears to be to prevent people from entering its territory at all costs, even if those people are in need of safety and protection.
@@ -238,7 +238,7 @@ export default function Event() {
                 Nevertheless, a concerted EU response is a priority for Italy (which holds the Presidency of the EU from July to December 2014) and is urgently needed given the scale of arrivals at sea.
             </p>
             <div>
-                <a href="migrant3.avif" alt="image" width="400">  How migrants are treated after resque.
+                <a href="migrant3.avif" alt="image" width="350">  How migrants are treated after resque.
                 </a>
             </div>
 
@@ -254,7 +254,7 @@ export default function Event() {
                 In recent years, the European Union has reached agreements with several North African countries aimed at reducing irregular migration.
             </p>
             <div>
-                <a href="migrant1.webp" alt="image" width="400">Can illegal migration stop?.</a>
+                <a href="migrant1.webp" alt="image" width="350">Can illegal migration stop?.</a>
             </div>
             <p>
                 🟦 AGAINST the motion (stronger, more realistic position)

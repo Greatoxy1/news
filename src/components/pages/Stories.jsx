@@ -15,7 +15,7 @@ export function Stories() {
                  More than $4 billion ticket sales,while Weapons ($268 million) and Sinners ($367 million) to IP plays like A Minecraft Movie ($957 million).
                  That is the current lead studio and she's willing to win more awards.
                </p>
-               <img src="pamela2.jpg" alt="image" width="400" />
+               <img src="pamela2.jpg" alt="image" width="350" />
             </div>
             <h2>
                 Entertainments are popping up on this platform
@@ -74,7 +74,7 @@ export function Stories() {
                 Participants in gymnastics-related sports include young children, recreational-level athletes, and competitive athletes at all skill levels.
             </p>
             <div>
-                <img src="gym1.jpg" alt="gym"  width="400"/>
+                <img src="gym1.jpg" alt="gym"  width="350"/>
             </div>
             <p>
                 By 1954, Olympic Games apparatus and events for men and women had been standardized in a modern format, and uniform grading structures (including a point system from 1 to 15) had been agreed upon.
@@ -87,7 +87,7 @@ export function Stories() {
                 This apparatus is thus considered safer than the vaulting horse used in the past. With the addition of this new, safer vaulting table, gymnasts are attempting more difficult vaults.
             </p>
             <div>
-                <img src="gym 2.jpg" alt="gym" width="400" />
+                <img src="gym 2.jpg" alt="gym" width="350" />
             </div>
             <p>
                 In 2006, FIG introduced a new point system for artistic gymnastics.[19] Unlike the old code of points, in which there was a maximum 10.0 score, there are two separate scores that are added to produce the final score.

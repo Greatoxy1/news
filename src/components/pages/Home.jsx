@@ -10,6 +10,10 @@ export default function Home() {
                 />
             </Helmet>
                 <h2>
+                    <h2>🔥Breaking News 🔥</h2>
+                    <a href="https://europe.globbalnews.com">
+                    UK evacuating citizens from Middle East
+                    </a>
                     <a href="https://europe.globbalnews.com">
                     <p>
                     🔥Breaking News 🔥
@@ -41,7 +45,7 @@ export default function Home() {
             </p>
             <div>
 
-                <img src="ru2.png" alt="image" width="500" />
+                <img src="ru2.png" alt="image" width="350" />
 
             </div>
             <p>
@@ -55,7 +59,7 @@ export default function Home() {
             </p>
 
             <div>
-                <img src="ru1.webp" alt="image" width="500" />
+                <img src="ru1.png" alt="image" width="350" />
 
             </div>
             <p>
@@ -96,7 +100,7 @@ export default function Home() {
                 Amid ongoing conflict and militia activity, governments have issued travel advisories, and safety risks for U.S. citizens and foreigners in Venezuela have increased.
             </p>
             <div>
-                <img src="usvz1.gif" alt="image" width="500" />
+                <img src="usvz1.gif" alt="image" width="350" />
 
             </div>
             <h2>
@@ -112,7 +116,7 @@ export default function Home() {
             <p>
             <br></br>
              </p>
-            <img src="usvz2.jpg" alt="image" width="500" />
+            <img src="usvz2.jpg" alt="image" width="350" />
             <h2>
                 Can this current act bring war between venezuela and USA?
             </h2>
@@ -179,7 +183,7 @@ export default function Home() {
                 <br></br>
                 4.Some European or Latin American leaders warn this precedent could encourage rival powers (like Russia/China) to escalate global tensions.
             </p>
-            <img src="usvz3.webp" alt="image" width="500" />
+            <img src="usvz3.webp" alt="image" width="350" />
             <h3>
                 WHAT ACTIONS MUST THE UNITED NATION TAKE BEFORE IS TOO LATE
             </h3>
@@ -207,7 +211,7 @@ export default function Home() {
                 The UN’s role is to slow things down, bring everyone to the table, protect civilians, and replace force with dialogue and law.
                 That’s often how big crises avoid turning into full wars.
             </p>
-            <img src="usvz4.avif" alt="image" width="500"></img>
+            <img src="usvz4.avif" alt="image" width="350"></img>
             <p>
                 The UN cannot enforce decisions by force unless countries volunteer troops.
 

@@ -45,7 +45,7 @@ export default function News(){
                    Official travel advisories continue to highlight the dangerous security environment, including threats of terrorism, kidnappings, and armed violence across the country.
                    Efforts to hold long‑delayed national elections and implement a UN‑led political roadmap have repeatedly stalled. The United Nations and international mediators continue to urge Libyan leaders to revive political dialogue and unity.
             </p>
-            <img src="Gaddafi.png" alt="image" width="450"/>
+            <img src="Gaddafi.png" alt="image" width="350"/>
             <h2>
                 Humanitarian and Social Context
             </h2>
