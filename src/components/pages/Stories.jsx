@@ -54,9 +54,9 @@ export function Stories() {
                 The complete list of the annual "Entertainer of the Year" winners:
             </a>
             <h>
-                <a href="https://Entertainment.globbalnews.com" target="_blanck" rel="noopener noreferrer"> <br></br>
+                <a href="https://shop.globbalnews.com" target="_blanck" rel="noopener noreferrer"> <br></br>
 
-                    Enjoy your entertainment
+                    Contact us for Business enquiries
 
                 </a>
 

@@ -9,26 +9,33 @@ export default function Home() {
                     content="Latest breaking news, entertainment, sports, blog and world updates."
                 />
             </Helmet>
+            <h2>
+                <h2>🔥Breaking News 🔥</h2>
+                <a href="https://africa.globbalnews.com">
+                    Israel missile attacked Ghana peacekeepers in Lebanon
+
+                    <img src="af.png" alt="image" width="300" />
+                </a>
+                <br></br>
                 <h2>
-                    <h2>🔥Breaking News 🔥</h2>
-                    <a href="https://europe.globbalnews.com">
+                        🔥Breaking News 🔥
+                    </h2>
+                <a href="https://europe.globbalnews.com">
                     UK evacuating citizens from Middle East
-                    </a>
-                    <a href="https://europe.globbalnews.com">
-                    <p>
-                    🔥Breaking News 🔥
-                    </p>
-                    <img src="eu.png" alt="image" width="400"/>
+                </a>
+                <a href="https://europe.globbalnews.com">
+                    
+                    <img src="eu.png" alt="image" width="350" />
                     <p>
                         Trump is pushing to use UK and Europeans Military bases against Iran.
                     </p>
-                    </a>
-                </h2>
+                </a>
+            </h2>
             <h2>
                 How fear and panic of global war is affecting the peace and freedom of the people.
             </h2>
             <h2>
-            <a href="https://business.globbalnews.com">Follow our business pages for business sections</a>
+                <a href="https://business.globbalnews.com">Follow our business pages for business sections</a>
             </h2>
             <p>
                 In this morden world, peace has become something difficult to get irrespective your position.
@@ -114,8 +121,8 @@ export default function Home() {
             </p>
             <a href="Stories">Current entertainment icons</a>
             <p>
-            <br></br>
-             </p>
+                <br></br>
+            </p>
             <img src="usvz2.jpg" alt="image" width="350" />
             <h2>
                 Can this current act bring war between venezuela and USA?
@@ -167,7 +174,7 @@ export default function Home() {
             </div>
             <div>
                 <p>
-                <a href="/trump1.mp4" src="video">WATCH TRUMP'S PRESS CONFERENCE ABOUT THE OPERATION IN VENEZUELA</a>
+                    <a href="/trump1.mp4" src="video">WATCH TRUMP'S PRESS CONFERENCE ABOUT THE OPERATION IN VENEZUELA</a>
                 </p>
             </div>
             <h2>
@@ -248,12 +255,12 @@ export default function Home() {
 
                 Its role would be to stabilize, not control Venezuela.
             </p>
-                <a href="News">How Saif al‑Islam Gaddafi was killed</a>
-               <br></br>
-               <br></br>
-            
-                <a href="https://shop.globbalnews.com">SPONSORSHIP AND ENQUIRIES ARE AVAILABLE HERE...</a>
-            
+            <a href="News">How Saif al‑Islam Gaddafi was killed</a>
+            <br></br>
+            <br></br>
+
+            <a href="https://shop.globbalnews.com">SPONSORSHIP AND ENQUIRIES ARE AVAILABLE HERE...</a>
+
         </div>
     )
 }

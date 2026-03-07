@@ -39,7 +39,7 @@ export default function Event() {
                 Official and established outlets continue to report him as part of Iran’s leadership transition process.
             </p>
             <h2>📰 Supreme Leader Ayatollah Ali Khamenei confirmed killed</h2>
-            <img src="ay2.png" alt="image" width="500" />
+            <img src="ay2.png" alt="image" width="350" />
             <p>
                 Iran’s state media and international outlets report that Ayatollah Ali Khamenei, Iran’s long-time supreme leader,
                 has died following a joint U.S.–Israeli air offensive on Iranian leadership targets.
@@ -56,7 +56,7 @@ export default function Event() {
 
                 Global concern is rising over potential wider escalation beyond the Middle East.
             </p>
-            <img src="ay1.png" alt="image" width="500" />
+            <img src="ay1.png" alt="image" width="350" />
             <h2>🗓 Timeline of Significant Events (Feb 27 – Mar 1, 2026)</h2>
             <p>
                 📆 Thursday, February 27, 2026
@@ -89,7 +89,7 @@ export default function Event() {
             </p>
 
             <h2>🔥 Major Escalations in Middle-East</h2>
-            <img src="iran.png" alt="image" width="500" />
+            <img src="iran.png" alt="image" width="350" />
 
             <p>
                 U.S. and Israel launched coordinated strikes on Iran early on Feb 28, 2026, targeting Iranian military and strategic sites.
@@ -107,7 +107,7 @@ export default function Event() {
                 with regional diplomats (including from Oman and other Gulf states) expressing concern that military action undermines ongoing negotiations and risks broader conflict.
                 Many international leaders are now calling for restraint, urgent diplomacy, and a rapid de-escalation of tensions.
             </p>
-            <img src="iran1.png" alt="image" width="500" />
+            <img src="iran1.png" alt="image" width="350" />
             <h2>
                 Nuclear talks and U.S.–Iran tensions
             </h2>
@@ -167,7 +167,7 @@ export default function Event() {
 
 
             <p>
-                <img src="ir1.webp" alt="image" width="500" />
+                <img src="ir1.webp" alt="image" width="350" />
             </p>
 
             <h2><a href="https://Globbalnews.com"><code>How innocent kids are soffering because of war.  Is there a way to solve global conflicts ?    </code></a></h2>
