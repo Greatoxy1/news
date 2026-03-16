@@ -1,13 +1,41 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.ticker-wrapper {
+  width: 50%;
+  overflow: hidden;
+  background: hsl(321, 98%, 66%);
+  color: white;
+  padding: 10px 0;
+  font-weight: bold;
 }
 
-:root {
-  font-family: sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+.ticker {
+  display: flex;
+  width: max-content;
+  animation: tickerScroll 25s linear infinite;
+}
 
-  --color-primary: #2c8166;
+.ticker-item {
+  margin-right: 50px;
+  white-space: nowrap;
+}
+
+.ticker-wrapper:hover .ticker {
+  animation-play-state: paused;
+}
+
+@keyframes tickerScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }

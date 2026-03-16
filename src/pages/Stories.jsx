@@ -53,14 +53,14 @@ export function Stories() {
                 Each section also has a five-worst list (film is the only section in which both critics give the worst). Also in the issue are special sections devoted to the Entertainer of the Year, great performances, newly arrived stars, a timeline of infamous celebrity mishaps, and obituaries of stars who died (this used to be in a separate issue; it was combined with the "end-of-the-year" issue in 2003). This is the only issue without any reviews.
                 The complete list of the annual "Entertainer of the Year" winners:
             </a>
-            <h>
+            <h2>
                 <a href="https://shop.globbalnews.com" target="_blanck" rel="noopener noreferrer"> <br></br>
 
                     Contact us for Business enquiries
 
                 </a>
 
-            </h>
+            </h2>
             <h2>
                 How the world embrasses gymnastics
             </h2>
@@ -98,9 +98,9 @@ export function Stories() {
                 [25] Gymnasts compete either as individuals or in groups. Individuals perform four separate routines, each using one of the four apparatuses—ball, ribbon, hoop, clubs, and formerly, rope—on a floor area. Groups consist of five gymnasts who perform two routines together,
                 one with five of the same apparatus and one with three of one apparatus and two of another; the FIG defines which apparatuses groups use each year.
             </p>
-            <h>
+            <h2>
                 <a href="https://Shop.globbalnews.com">CONTACT TAHIRUS-ENTERPRISE FOR ANY BUISNESS SUPPORT.</a>
-            </h>
+            </h2>
         </div>
     )
 }

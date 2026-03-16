@@ -9,7 +9,7 @@ export default function Home() {
                     content="Latest breaking news, entertainment, sports, blog and world updates."
                 />
             </Helmet>
-            <h2>
+            <div>
                 <h2>🔥Breaking News 🔥</h2>
                 <a href="https://africa.globbalnews.com">
                     Israel missile attacked Ghana peacekeepers in Lebanon
@@ -30,7 +30,7 @@ export default function Home() {
                         Trump is pushing to use UK and Europeans Military bases against Iran.
                     </p>
                 </a>
-            </h2>
+            </div>
             <h2>
                 How fear and panic of global war is affecting the peace and freedom of the people.
             </h2>

@@ -7,19 +7,34 @@ cron.schedule("*/30 * * * *", async () => {
 
   const latestNews = {
     title: "Breaking News 🚨",
-    body: "Something new just happend !"
+    body: "Something new just happened!"
   };
 
-  const subs = await Subscription.find({ topic: "breaking" });
+  try {
+    const subs = await Subscription.find({ topic: "breaking" });
 
-  await Promise.all(
-    subs.map(sub =>
-      webpush.sendNotification(
-        sub.subscription,
-        JSON.stringify(latestNews)
-      ).catch(err => console.error("Push failed:", err))
-    )
-  );
+    await Promise.all(
+      subs.map(sub =>
+        webpush
+          .sendNotification(
+            {
+              endpoint: sub.endpoint,
+              keys: sub.keys
+            },
+            JSON.stringify(latestNews)
+          )
+          .catch(err => {
+            console.error("Push failed:", err.statusCode);
 
-  console.log(`✅ Sent ${subs.length} notifications`);
+            if (err.statusCode === 410) {
+              return Subscription.deleteOne({ endpoint: sub.endpoint });
+            }
+          })
+      )
+    );
+
+    console.log(`✅ Sent ${subs.length} notifications`);
+  } catch (err) {
+    console.error("Cron error:", err);
+  }
 });
