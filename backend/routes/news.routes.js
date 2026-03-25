@@ -1,5 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
+import { getTopNews } from "../controllers/news.controller.js";
 
 // Create a simple News model
 const newsSchema = new mongoose.Schema(
@@ -15,6 +16,7 @@ const newsSchema = new mongoose.Schema(
 const News = mongoose.model("News", newsSchema);
 
 const router = express.Router();
+router.get("/top", getTopNews);
 
 // GET all news
 router.get("/", async (req, res) => {

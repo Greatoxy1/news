@@ -38,24 +38,24 @@ const styles = {
   },
   productBox: {
     border: "1px solid rgb(152, 241, 28)",
-    padding: "15px",
+    padding: "5px",
     background: "rgb(59, 218, 249)",
-    borderRadius: "8px",
+    borderRadius: "4px",
     textAlign: "center",
-    minWidth: "100px", // optional: keeps boxes same size
+    minWidth: "30px", // optional: keeps boxes same size
   },
   title: {
-    marginBottom: "12px",
+    marginBottom: "3px",
     color: "#333",
     fontSize: "1rem",
   },
   button: {
     backgroundColor: "#ff9900",
     color: "#fff",
-    padding: "10px 18px",
+    padding: "3px 5px",
     textDecoration: "none",
     fontWeight: "bold",
-    borderRadius: "5px",
+    borderRadius: "3px",
     display: "inline-block",
   },
 };

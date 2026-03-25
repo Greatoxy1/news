@@ -46,6 +46,7 @@ app.post("/api/unsubscribe", async (req, res) => {
   res.json({ message: "Unsubscribed" });
 });
 
+
 // Trigger notifications manually
 app.post("/api/notify", async (req, res) => {
   const { topic, title, body } = req.body;
