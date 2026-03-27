@@ -15,14 +15,18 @@ mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.error(err));
 
-app.use(cors());
+  app.use(cors({
+  origin: ["https://globbalnews.com"],
+  methods: ["GET", "POST"],
+  credentials: true
+}));
 app.use(express.json());
 app.use("/news", newsRoutes);
 
 // VAPID setup
 webpush.setVapidDetails(
   process.env.VAPID_EMAIL,
-  process.env.VITE_VAPID_PUBLIC_KEY,
+  process.env.VAPID_PUBLIC_KEY,
   process.env.VAPID_PRIVATE_KEY
 );
 
@@ -61,4 +65,5 @@ app.post("/api/notify", async (req, res) => {
 
 app.get("/", (_, res) => res.send("Backend running ✅"));
 
-app.listen(5000, () => console.log("Backend running on http://localhost:5000"));
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`Server running on ${PORT}`));

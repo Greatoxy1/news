@@ -38,11 +38,11 @@ const styles = {
   },
   productBox: {
     border: "1px solid rgb(152, 241, 28)",
-    padding: "5px",
+    padding: "2px",
     background: "rgb(59, 218, 249)",
-    borderRadius: "4px",
+    borderRadius: "2px",
     textAlign: "center",
-    minWidth: "30px", // optional: keeps boxes same size
+    minWidth: "20px", // optional: keeps boxes same size
   },
   title: {
     marginBottom: "3px",
@@ -52,7 +52,7 @@ const styles = {
   button: {
     backgroundColor: "#ff9900",
     color: "#fff",
-    padding: "3px 5px",
+    padding: "2px 3px",
     textDecoration: "none",
     fontWeight: "bold",
     borderRadius: "3px",

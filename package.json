@@ -1,13 +1,11 @@
 {
-  "name": "backend",
+  "name": "frontend",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
     "dev": "vite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node server.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
