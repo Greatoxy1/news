@@ -16,7 +16,12 @@ mongoose.connect(process.env.MONGO_URI)
   .catch(err => console.error(err));
 
   app.use(cors({
-  origin: ["https://globbalnews.com"],
+  origin: [
+    "https://news-xurb.onrender.com",
+    "https://globbalnews.com",
+        "https://localhost:5173"           // for local development
+
+  ],
   methods: ["GET", "POST"],
   credentials: true
 }));
@@ -33,6 +38,23 @@ webpush.setVapidDetails(
 // Routes
 app.use("/api/auth", authRoutes);
 
+app.get("/news", async (req, res) => {
+  try {
+    console.log("API KEY:", process.env.NEWS_API_KEY); // 👈 debug
+
+    const response = await fetch(
+      `https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.NEWS_API_KEY}`
+    );
+
+    const data = await response.json();
+    console.log(data); // 👈 see what NewsAPI returns
+
+    res.json(data.articles || []);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Failed to fetch news" });
+  }
+});
 // Subscription endpoints
 app.post("/api/subscribe", async (req, res) => {
   const { subscription, topic } = req.body;
