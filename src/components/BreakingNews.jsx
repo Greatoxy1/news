@@ -6,7 +6,7 @@ function BreakingNews() {
 
 useEffect(() => {
   const fetchHeadlines = () => {
-    fetch("http://localhost:5000/news")
+    fetch("https://news-xurb.onrender.com/news")
       .then((res) => res.json())
       .then((data) => {
         const titles = data.map((n) => n.title).join(" 🔴 ");

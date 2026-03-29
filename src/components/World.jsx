@@ -14,7 +14,7 @@ function World() {
       setLoading(true);
 
       try {
-        const res = await fetch(`http://localhost:5000/news?page=${page}`);
+        const res = await fetch(`https://news-xurb.onrender.com/news?page=${page}`);
         const data = await res.json();
 
         if (data.length > 0) {

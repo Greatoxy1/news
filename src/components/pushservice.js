@@ -9,7 +9,7 @@ export async function subscribe(topic) {
       applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY)
     });
 
-    const res = await fetch("https://localhost:5000/api/subscribe", {
+    const res = await fetch("https://news-xurb.onrender.com/api/subscribe", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ subscription: sub, topic })
@@ -31,7 +31,7 @@ export async function unsubscribe() {
 
     if (!sub) return { success: false, error: "No subscription found" };
 
-    const res = await fetch("https://localhost:5000/api/unsubscribe", {
+    const res = await fetch("https://news-xurb.onrender.com/api/unsubscribe", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ endpoint: sub.endpoint })
