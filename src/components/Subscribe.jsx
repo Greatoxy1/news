@@ -22,7 +22,7 @@ function Subscribe() {
         ),
       });
 
-      await axios.post("https://news-xurb.onrender.com/news/api/subscribe", {
+      await axios.post("http://localhost:5000/api/subscribe", {
         subscription,
         topic: "breaking"
       });

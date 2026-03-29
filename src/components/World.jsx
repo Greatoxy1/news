@@ -14,11 +14,11 @@ function World() {
       setLoading(true);
 
       try {
-        const res = await fetch(`https://news-xurb.onrender.com/news?page=${page}`);
+        const res = await fetch(`http://localhost:5000/news?page=${page}`);
         const data = await res.json();
-        setArticles(prev => [...prev, ...data]);
-        
-        if (data.length) {
+
+        if (data.length > 0) {
+          // Deduplicate by URL
           setArticles(prev => {
             const newArticles = data.filter(
               a => !prev.some(p => p.url === a.url)
@@ -28,9 +28,8 @@ function World() {
         } else {
           setHasMore(false);
         }
-
       } catch (err) {
-        console.error(err);
+        console.error("Failed to fetch articles:", err);
       } finally {
         setLoading(false);
       }
@@ -39,6 +38,7 @@ function World() {
     fetchArticles();
   }, [page, hasMore]);
 
+  // Infinite scroll
   useEffect(() => {
     const handleScroll = () => {
       if (

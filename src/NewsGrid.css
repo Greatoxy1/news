@@ -1,0 +1,39 @@
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+.news-card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.news-card:hover {
+  transform: translateY(-4px);
+}
+
+.news-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.news-info {
+  padding: 12px;
+}
+
+.news-info h3 {
+  font-size: 1rem;
+  margin: 0 0 8px 0;
+}
+
+.news-info p {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 0;
+}

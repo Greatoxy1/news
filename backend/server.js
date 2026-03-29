@@ -1,61 +1,63 @@
+// server.js
 import express from "express";
 import mongoose from "mongoose";
-import cors from "cors";
-import dotenv from "dotenv";
 import webpush from "web-push";
-
-import newsRoutes from "./routes/news.routes.js";
-import authRoutes from "./routes/auth.routes.js";
 import Subscription from "./models/Subscription.model.js";
+import dotenv from "dotenv";
+import cors from "cors";
+import axios from "axios";
 
 dotenv.config();
-const app = express();
 
+const app = express();
+app.use(express.json());
+app.use(cors());
+
+// -------------------------
+// Connect to MongoDB
+// -------------------------
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("MongoDB connected"))
-  .catch(err => console.error(err));
+  .catch(err => console.error("MongoDB connection error:", err));
 
-  app.use(cors({
-  origin: [
-    "https://news-xurb.onrender.com",
-    "https://globbalnews.com",
-        "https://localhost:5173"           // for local development
-
-  ],
-  methods: ["GET", "POST"],
-  credentials: true
-}));
-app.use(express.json());
-app.use("/news", newsRoutes);
-
-// VAPID setup
+// -------------------------
+// VAPID keys for push notifications
+// -------------------------
 webpush.setVapidDetails(
   process.env.VAPID_EMAIL,
-  process.env.VAPID_PUBLIC_KEY,
+  process.env.VITE_VAPID_PUBLIC_KEY,
   process.env.VAPID_PRIVATE_KEY
 );
 
-// Routes
-app.use("/api/auth", authRoutes);
-
+// -------------------------
+// NEWS API route
+// -------------------------
 app.get("/news", async (req, res) => {
-  try {
-    console.log("API KEY:", process.env.NEWS_API_KEY); // 👈 debug
+  const page = req.query.page || 1;
 
-    const response = await fetch(
-      `https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.NEWS_API_KEY}`
+  try {
+    const response = await axios.get(
+      `https://newsapi.org/v2/top-headlines?country=us&pageSize=20&page=${page}&apiKey=${process.env.NEWS_API_KEY}`
     );
 
-    const data = await response.json();
-    console.log(data); // 👈 see what NewsAPI returns
+    const articles = response.data.articles.map(article => ({
+      title: article.title,
+      url: article.url,
+      image: article.urlToImage,
+      source: article.source.name
+    }));
 
-    res.json(data.articles || []);
-  } catch (err) {
-    console.error(err);
+    res.json(articles);
+
+  } catch (error) {
+    console.error("NEWS API ERROR:", error.response?.data || error.message);
     res.status(500).json({ error: "Failed to fetch news" });
   }
 });
-// Subscription endpoints
+
+// -------------------------
+// Subscribe endpoint
+// -------------------------
 app.post("/api/subscribe", async (req, res) => {
   const { subscription, topic } = req.body;
   await Subscription.updateOne(
@@ -66,26 +68,36 @@ app.post("/api/subscribe", async (req, res) => {
   res.status(201).json({ message: "Subscribed" });
 });
 
+// -------------------------
+// Unsubscribe endpoint
+// -------------------------
 app.post("/api/unsubscribe", async (req, res) => {
   const { endpoint } = req.body;
   await Subscription.deleteOne({ endpoint });
   res.json({ message: "Unsubscribed" });
 });
 
-
-// Trigger notifications manually
+// -------------------------
+// Send notification manually
+// -------------------------
 app.post("/api/notify", async (req, res) => {
   const { topic, title, body } = req.body;
   const payload = JSON.stringify({ title, body });
+
   const subs = await Subscription.find({ topic });
+
   await Promise.all(subs.map(sub =>
     webpush.sendNotification({ endpoint: sub.endpoint, keys: sub.keys }, payload)
-      .catch(err => { if (err.statusCode === 410) Subscription.deleteOne({ endpoint: sub.endpoint }); })
+      .catch(err => {
+        if (err.statusCode === 410) Subscription.deleteOne({ endpoint: sub.endpoint });
+      })
   ));
+
   res.json({ message: `Sent to ${subs.length} subscribers` });
 });
 
-app.get("/", (_, res) => res.send("Backend running ✅"));
-
+// -------------------------
+// Start server
+// -------------------------
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on ${PORT}`));
