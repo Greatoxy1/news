@@ -23,6 +23,8 @@ export default function Home() {
                 <a href="https://europe.globbalnews.com">
                     UK evacuating citizens from Middle East
                 </a>
+                                    <br></br>
+
                 <a href="https://europe.globbalnews.com">
                     
                     <img src="eu.png" alt="image" width="350" />
