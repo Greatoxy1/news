@@ -2,7 +2,7 @@ import cron from "node-cron";
 import webpush from "web-push";
 import Subscription from "../models/Subscription.model.js";
 
-cron.schedule("*/30 * * * *", async () => {
+cron.schedule("0 6 * * *", async () => {
   console.log("🔔 Running news notification cron...");
 
   const latestNews = {

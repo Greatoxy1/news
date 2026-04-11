@@ -18,15 +18,15 @@ export default function Home() {
                 </a>
                 <br></br>
                 <h2>
-                        🔥Breaking News 🔥
-                    </h2>
+                    🔥Breaking News 🔥
+                </h2>
                 <a href="https://europe.globbalnews.com">
                     UK evacuating citizens from Middle East
                 </a>
-                                    <br></br>
+                <br></br>
 
                 <a href="https://europe.globbalnews.com">
-                    
+
                     <img src="eu.png" alt="image" width="350" />
                     <p>
                         Trump is pushing to use UK and Europeans Military bases against Iran.
