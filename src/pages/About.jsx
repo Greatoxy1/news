@@ -40,6 +40,10 @@ export default function About() {
                 <a href="https://blog.globbalnews.com">Available news for you.</a>
             </h2>
             <a href="https://business.globbalnews.com">Follow our business pages for business sections</a>
+            <br></br>
+            <h2>
+                <a href="https://sites.google.com/view/globbalnews-com/home">Privacy-Policy</a>
+            </h2>
         </div>
     )
 }

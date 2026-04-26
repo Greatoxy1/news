@@ -121,7 +121,7 @@ export default function Home() {
                 During a press conference at his Mar-a-Lago resort in Florida late Saturday morning, President Trump said that the US intended to “run Venezuela” until there is a “safe, proper and judicious transition” of power.
                 This is one of the discussions circurating on the globe,can it be possible?.
             </p>
-            <a href="Stories">Current entertainment icons</a>
+            <a href="https://sports.globbalnews.com">Current entertainment icons</a>
             <p>
                 <br></br>
             </p>
@@ -257,7 +257,7 @@ export default function Home() {
 
                 Its role would be to stabilize, not control Venezuela.
             </p>
-            <a href="News">How Saif al‑Islam Gaddafi was killed</a>
+            <a href="https://africa.globbalnews.com">How Saif al‑Islam Gaddafi was killed</a>
             <br></br>
             <br></br>
 

@@ -13,6 +13,7 @@ function Header() {
         <Link to="/stories">Entertainment</Link>
         <Link to="/event">New updates</Link>
         <Link to="/news">Africa</Link>
+        <Link to ="/about">About</Link>
       </nav>
     </header>
   );

@@ -18,7 +18,6 @@ function World() {
         const data = await res.json();
 
         if (data.length > 0) {
-          // Deduplicate by URL
           setArticles(prev => {
             const newArticles = data.filter(
               a => !prev.some(p => p.url === a.url)
@@ -38,7 +37,6 @@ function World() {
     fetchArticles();
   }, [page, hasMore]);
 
-  // Infinite scroll
   useEffect(() => {
     const handleScroll = () => {
       if (
@@ -57,11 +55,28 @@ function World() {
   }, [loading, hasMore]);
 
   return (
-    <>
+    <div>
+      {/* ✅ ADD ORIGINAL CONTENT (VERY IMPORTANT) */}
+      <h1>World News Overview</h1>
+      <p>
+        This page provides a curated overview of global news developments.
+        We summarize key events and trends from different regions to help readers
+        understand what is happening around the world.
+      </p>
+
+      <h2>Latest Global Developments</h2>
+      <p>
+        International news continues to focus on geopolitical tensions,
+        economic challenges, and humanitarian issues. Our goal is to highlight
+        the most important stories and provide simple, clear summaries.
+      </p>
+
+      {/* ✅ YOUR NEWS GRID (API CONTENT) */}
       <NewsGrid articles={articles} />
+
       {loading && <p style={{ textAlign: "center" }}>Loading more news...</p>}
       {!hasMore && <p style={{ textAlign: "center" }}>No more news</p>}
-    </>
+    </div>
   );
 }
 

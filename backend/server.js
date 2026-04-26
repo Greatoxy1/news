@@ -6,7 +6,7 @@ import Subscription from "./models/Subscription.model.js";
 import dotenv from "dotenv";
 import cors from "cors";
 import axios from "axios";
-
+import "./cron/newsCron.js";
 dotenv.config();
 
 const app = express();
@@ -32,6 +32,16 @@ webpush.setVapidDetails(
 // -------------------------
 // NEWS API route
 // -------------------------
+
+app.get("/news/headlines", async (req, res) => {
+  const response = await axios.get(
+    `https://newsapi.org/v2/top-headlines?country=us&pageSize=10&apiKey=${process.env.NEWS_API_KEY}`
+  );
+
+  const titles = response.data.articles.map(a => a.title);
+  res.json(titles);
+});
+
 app.get("/news", async (req, res) => {
   const page = req.query.page || 1;
 
@@ -97,6 +107,7 @@ app.post("/api/notify", async (req, res) => {
 });
 
 // -------------------------
+
 // Start server
 // -------------------------
 const PORT = process.env.PORT || 5000;
