@@ -8,8 +8,8 @@ const subscriptionSchema = new mongoose.Schema(
       unique: true
     },
     keys: {
-      p256dh: String,
-      auth: String
+      p256dh: { type: String, required: true },
+      auth: { type: String, required: true }
     },
     topic: {
       type: String,

@@ -54,7 +54,8 @@ app.get("/news", async (req, res) => {
       title: article.title,
       url: article.url,
       image: article.urlToImage,
-      source: article.source.name
+      source: article.source.name,
+       publishedAt: article.publishedAt
     }));
 
     res.json(articles);
@@ -104,6 +105,47 @@ app.post("/api/notify", async (req, res) => {
   ));
 
   res.json({ message: `Sent to ${subs.length} subscribers` });
+});
+
+app.get("/sitemap.xml", async (req, res) => {
+  try {
+    const response = await axios.get(
+      `https://newsapi.org/v2/top-headlines?country=us&pageSize=50&apiKey=${process.env.NEWS_API_KEY}`
+    );
+
+    const articles = response.data.articles;
+
+    const baseUrl = "https://globbalnews.com";
+
+    const urls = articles.map(article => {
+      const slug = article.title
+        .toLowerCase()
+        .replace(/[^a-z0-9 ]/g, "")
+        .replace(/\s+/g, "-");
+
+      return `
+        <url>
+          <loc>${baseUrl}/article/${slug}</loc>
+        </url>
+      `;
+    }).join("");
+
+    const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+      <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <url>
+          <loc>${baseUrl}</loc>
+        </url>
+        ${urls}
+      </urlset>
+    `;
+
+    res.header("Content-Type", "application/xml");
+    res.send(sitemap);
+
+  } catch (err) {
+    console.error("Sitemap error:", err.message);
+    res.status(500).send("Error generating sitemap");
+  }
 });
 
 // -------------------------
