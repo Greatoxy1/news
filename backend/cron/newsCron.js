@@ -7,7 +7,7 @@ import axios from "axios";
 console.log("🚀 newsCron file loaded");
 let lastTitle = "";
 
-cron.schedule("0 6 * * *", async () => {
+cron.schedule("*/5 * * * *", async () => {
   console.log("🔔 CRON RUNNING");
 
   try {
@@ -17,17 +17,14 @@ cron.schedule("0 6 * * *", async () => {
 
     const latest = res.data
       .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))[0];
+
     if (!latest) return;
 
-    // ✅ DUPLICATE CHECK
     if (latest.title === lastTitle) {
-      console.log("⏭ Duplicate news skipped");
+      console.log("⏭ Duplicate skipped");
       return;
     }
 
-    // ✅ update memory
-    console.log("Latest title:", latest.title);
-    console.log("Last title:", lastTitle);
     const payload = JSON.stringify({
       title: latest.title,
       body: latest.source || "Click to read more",
@@ -35,11 +32,10 @@ cron.schedule("0 6 * * *", async () => {
     });
 
     const subs = await Subscription.find();
-    console.log("Total subs:", subs.length);
-    console.log("Breaking subs:", subs.filter(s => s.topic === "breaking").length);
-    await Promise.all(
-      subs.map(sub =>
-        webpush.sendNotification(
+
+    for (const sub of subs) {
+      try {
+        await webpush.sendNotification(
           {
             endpoint: sub.endpoint,
             keys: {
@@ -48,18 +44,22 @@ cron.schedule("0 6 * * *", async () => {
             }
           },
           payload
-        )
-      )
-    );
+        );
+      } catch (err) {
+        console.error("❌ Push failed:", err.statusCode);
+
+        if (err.statusCode === 410 || err.statusCode === 404) {
+          await Subscription.deleteOne({ endpoint: sub.endpoint });
+          console.log("🗑 Removed dead subscription");
+        }
+      }
+    }
+
+    lastTitle = latest.title;
 
     console.log("✅ Sent:", latest.title);
 
   } catch (err) {
-          console.error("❌ Push failed:", err.statusCode, err.body);
-
-      if (err.statusCode === 410 || err.statusCode === 404) {
-        await Subscription.deleteMany({});
-        console.log("🗑 Removed dead subscription");
-      }
+    console.error(err);
   }
 });
