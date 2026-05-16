@@ -13,6 +13,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+let lastSentTitle = "";
 // -------------------------
 // Connect to MongoDB
 // -------------------------
@@ -55,7 +56,7 @@ app.get("/news", async (req, res) => {
       url: article.url,
       image: article.urlToImage,
       source: article.source.name,
-       publishedAt: article.publishedAt
+      publishedAt: article.publishedAt
     }));
 
     res.json(articles);
@@ -149,6 +150,62 @@ app.get("/sitemap.xml", async (req, res) => {
 });
 
 // -------------------------
+// External cron trigger
+// -------------------------
+app.get("/send-news", async (req, res) => {
+  try {
+    console.log("🔔 External cron triggered");
+
+    const response = await axios.get(
+      `https://newsapi.org/v2/top-headlines?country=us&pageSize=1&apiKey=${process.env.NEWS_API_KEY}`
+    );
+
+   const latest = response.data.articles[0];
+
+if (!latest) {
+  return res.send("No news found");
+}
+
+if (latest.title === lastSentTitle) {
+  return res.send("Duplicate skipped");
+}
+
+    const payload = JSON.stringify({
+      title: latest.title,
+      body: latest.source.name || "Click to read more",
+      url: latest.url
+    });
+
+    const subs = await Subscription.find();
+
+    for (const sub of subs) {
+      try {
+        await webpush.sendNotification(
+          {
+            endpoint: sub.endpoint,
+            keys: {
+              p256dh: sub.keys.p256dh,
+              auth: sub.keys.auth
+            }
+          },
+          payload
+        );
+      } catch (err) {
+        console.error("❌ Push failed:", err.statusCode);
+
+        if (err.statusCode === 404 || err.statusCode === 410) {
+          await Subscription.deleteOne({ endpoint: sub.endpoint });
+        }
+      }
+    }
+    lastSentTitle = latest.title;
+    res.send("✅ Notifications sent");
+
+  } catch (err) {
+    console.error(err);
+    res.status(500).send("Server error");
+  }
+});
 
 // Start server
 // -------------------------
