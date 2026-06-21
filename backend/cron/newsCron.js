@@ -1,33 +1,41 @@
 import cron from "node-cron";
 import webpush from "web-push";
 import Subscription from "../models/Subscription.model.js";
+import State from "../models/State.model.js";
 import axios from "axios";
 
-// ✅ GLOBAL variable (persists between runs)
 console.log("🚀 newsCron file loaded");
-let lastTitle = "";
 
 cron.schedule("0 6 * * *", async () => {
   console.log("🔔 CRON RUNNING");
 
   try {
-    const res = await axios.get(
-      "https://news-xurb.onrender.com/news?page=1"
+    // 🔥 Call NewsAPI directly (better than self-request)
+    const response = await axios.get(
+      `https://newsapi.org/v2/top-headlines?country=us&pageSize=1&apiKey=${process.env.NEWS_API_KEY}`
     );
 
-    const latest = res.data
-      .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))[0];
-
+    const latest = response.data.articles?.[0];
     if (!latest) return;
 
-    if (latest.title === lastTitle) {
+    // 🔒 Get last sent title from DB
+    const state = await State.findOne({ key: "lastTitle" });
+
+    if (state?.value === latest.title) {
       console.log("⏭ Duplicate skipped");
       return;
     }
 
+    // 💾 Save latest title BEFORE sending
+    await State.updateOne(
+      { key: "lastTitle" },
+      { value: latest.title },
+      { upsert: true }
+    );
+
     const payload = JSON.stringify({
       title: latest.title,
-      body: latest.source || "Click to read more",
+      body: latest.source?.name || "Click to read more",
       url: latest.url
     });
 
@@ -55,11 +63,9 @@ cron.schedule("0 6 * * *", async () => {
       }
     }
 
-    lastTitle = latest.title;
-
     console.log("✅ Sent:", latest.title);
 
   } catch (err) {
-    console.error(err);
+    console.error("CRON ERROR:", err.message);
   }
 });

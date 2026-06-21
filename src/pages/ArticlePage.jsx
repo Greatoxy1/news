@@ -1,11 +1,19 @@
-import { useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 export default function ArticlePage() {
-  const location = useLocation();
-  const article = location.state?.article;
+  const { slug } = useParams();
+  const [article, setArticle] = useState(null);
+
+  useEffect(() => {
+    fetch(`https://your-api.com/articles/${slug}`)
+      .then(res => res.json())
+      .then(data => setArticle(data))
+      .catch(() => setArticle(null));
+  }, [slug]);
 
   if (!article) {
-    return <p>Article not found</p>;
+    return <p>Loading article...</p>;
   }
 
   return (
@@ -20,19 +28,12 @@ export default function ArticlePage() {
         style={{ width: "100%", marginBottom: "20px" }}
       />
 
-      {/* ✅ ORIGINAL CONTENT (YOU MUST WRITE THIS) */}
-      <h2>Our Summary</h2>
-      <p>
-        This article discusses recent developments related to global events.
-        Based on available information, the situation continues to evolve and may
-        have wider international implications.
-      </p>
+      <h2>Analysis</h2>
+      <p>{article.analysis}</p>
 
-      {/* ✅ API content */}
       <h2>Details</h2>
       <p>{article.description}</p>
 
-      {/* ✅ source link */}
       <a href={article.url} target="_blank" rel="noopener noreferrer">
         Read original source
       </a>

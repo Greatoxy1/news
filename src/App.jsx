@@ -8,6 +8,8 @@ import News from "./pages/News";
 import BreakingNews from "./components/BreakingNews";
 import Subscribe from "./components/Subscribe";
 import World from "./components/World";
+import ArticlePage from "./pages/ArticlePage";
+import EventArticle from "./pages/EventArticle";
 function App() {
   return (
     <>
@@ -17,10 +19,12 @@ function App() {
       <Subscribe/>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/article/:slug" element={<ArticlePage />} />
         <Route path="/about" element={<About />} />
         <Route path="/stories" element={<Stories />} />
         <Route path="/event" element={<Event />} />
         <Route path="/news" element={<News />} />
+        <Route path="/events/:slug" element={<EventArticle />} />
       </Routes>
 
     </>
