@@ -9,9 +9,8 @@ function Header() {
       <nav className="nav-links">
         <Link to="/">Home</Link>
         <Link to="/world">World</Link>
-        <Link to="/about"></Link>
         <Link to="/stories">Entertainment</Link>
-        <Link to="/event">New updates</Link>
+        <Link to="/event">News Europe</Link>
         <Link to="/news">Africa</Link>
         <Link to ="/about">About</Link>
       </nav>

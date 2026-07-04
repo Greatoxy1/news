@@ -10,6 +10,7 @@ import Subscribe from "./components/Subscribe";
 import World from "./components/World";
 import ArticlePage from "./pages/ArticlePage";
 import EventArticle from "./pages/EventArticle";
+import NewsArticle from "./pages/NewsArticle";
 function App() {
   return (
     <>
@@ -25,6 +26,8 @@ function App() {
         <Route path="/event" element={<Event />} />
         <Route path="/news" element={<News />} />
         <Route path="/events/:slug" element={<EventArticle />} />
+       <Route path="/news/:slug" element={<NewsArticle />} />
+
       </Routes>
 
     </>
