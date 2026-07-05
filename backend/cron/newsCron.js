@@ -22,7 +22,6 @@ cron.schedule("0 6 * * *", async () => {
     const state = await State.findOne({ key: "lastTitle" });
 
     if (state?.value === latest.title) {
-      console.log("⏭ Duplicate skipped");
       return;
     }
 
@@ -34,12 +33,13 @@ cron.schedule("0 6 * * *", async () => {
     );
 
     const payload = JSON.stringify({
-      title: latest.title,
-      body: latest.source?.name || "Click to read more",
-      url: latest.url
-    });
+  title: "Test Notification " + Date.now(),
+  body: "Testing push notifications",
+  url: "https://globbalnews.com"
+});
 
     const subs = await Subscription.find();
+    console.log("Subscribers:", subs.length);
 
     for (const sub of subs) {
       try {
@@ -65,7 +65,11 @@ cron.schedule("0 6 * * *", async () => {
 
     console.log("✅ Sent:", latest.title);
 
-  } catch (err) {
-    console.error("CRON ERROR:", err.message);
-  }
+ } catch (err) {
+  console.error({
+    status: err.statusCode,
+    message: err.message,
+    body: err.body,
+  });
+}
 });
