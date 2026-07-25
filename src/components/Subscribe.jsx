@@ -12,40 +12,44 @@ function Subscribe() {
     }
   }, []);
 
-const handleSubscribe = async () => {
-  try {
-    const permission = await Notification.requestPermission();
-    if (permission !== "granted") {
-      setMessage("Permission denied");
-      return;
+  const handleSubscribe = async () => {
+    try {
+      const permission = await Notification.requestPermission();
+      if (permission !== "granted") {
+        setMessage("Permission denied");
+        return;
+      }
+
+      const registration = await navigator.serviceWorker.ready;
+
+      const existing = await registration.pushManager.getSubscription();
+      if (existing) {
+        await existing.unsubscribe();
+      }
+
+      const subscription = await registration.pushManager.subscribe({
+        userVisibleOnly: true,
+        applicationServerKey: urlBase64ToUint8Array(
+          import.meta.env.VITE_VAPID_PUBLIC_KEY
+        ),
+      });
+
+      await axios.post("https://news-xurb.onrender.com/api/subscribe", {
+        subscription,
+        topic: "breaking"
+      });
+
+      const reg = await navigator.serviceWorker.ready;
+      const sub = await reg.pushManager.getSubscription();
+      console.log(sub);
+
+      setMessage("Subscribed successfully! 🔔");
+
+    } catch (err) {
+      console.error("FULL ERROR:", err);
+      setMessage("Subscription failed.");
     }
-
-    const registration = await navigator.serviceWorker.ready;
-
-    const existing = await registration.pushManager.getSubscription();
-    if (existing) {
-      await existing.unsubscribe();
-    }
-
-    const subscription = await registration.pushManager.subscribe({
-      userVisibleOnly: true,
-      applicationServerKey: urlBase64ToUint8Array(
-        import.meta.env.VITE_VAPID_PUBLIC_KEY
-      ),
-    });
-
-    await axios.post("https://news-xurb.onrender.com/api/subscribe", {
-      subscription,
-      topic: "breaking"
-    });
-
-    setMessage("Subscribed successfully! 🔔");
-
-  } catch (err) {
-    console.error("FULL ERROR:", err);
-    setMessage("Subscription failed.");
-  }
-};
+  };
 
   function urlBase64ToUint8Array(base64String) {
     const padding = "=".repeat((4 - (base64String.length % 4)) % 4);

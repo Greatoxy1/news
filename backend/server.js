@@ -166,9 +166,10 @@ if (!latest) {
   return res.send("No news found");
 }
 
-//if (latest.title === lastSentTitle) {
- // return res.send("Duplicate skipped");
-//}
+if (latest.title === lastSentTitle) {
+  return res.send("Duplicate skipped");
+
+}
 
     const payload = JSON.stringify({
       title: latest.title,

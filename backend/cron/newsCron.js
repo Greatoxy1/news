@@ -33,10 +33,10 @@ cron.schedule("0 6 * * *", async () => {
     );
 
     const payload = JSON.stringify({
-  title: "Test Notification " + Date.now(),
-  body: "Testing push notifications",
-  url: "https://globbalnews.com"
-});
+      title: "Breaking News " + Date.now(),
+      body: "Something just happpend",
+      url: "https://globbalnews.com"
+    });
 
     const subs = await Subscription.find();
     console.log("Subscribers:", subs.length);
@@ -64,12 +64,12 @@ cron.schedule("0 6 * * *", async () => {
     }
 
     console.log("✅ Sent:", latest.title);
-
- } catch (err) {
-  console.error({
-    status: err.statusCode,
-    message: err.message,
-    body: err.body,
-  });
-}
+    console.log("Subscribers:", subs.length);
+  } catch (err) {
+    console.error({
+      status: err.statusCode,
+      message: err.message,
+      body: err.body,
+    });
+  }
 });
