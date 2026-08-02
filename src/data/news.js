@@ -1,7 +1,7 @@
 export const news =[ 
     {
     slug: "Ibrahim Traore severed diplomatic ralationship with France",
-    title: "Burkina Faso and France diplomatict relations",
+    title: "Burkina Faso and France diplomatict relations ~ Read More",
     author: "Globbal News",
     date: "2026-06-21",
     image: "/t m.jpg",

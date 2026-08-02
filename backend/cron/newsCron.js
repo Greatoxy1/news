@@ -6,7 +6,7 @@ import axios from "axios";
 
 console.log("🚀 newsCron file loaded");
 
-cron.schedule("0 6 * * *", async () => {
+cron.schedule("0 6s * * *", async () => {
   console.log("🔔 CRON RUNNING");
 
   try {

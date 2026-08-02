@@ -113,7 +113,7 @@ export default function Home() {
 
             </div>
             <h2>
-                THE UNITED NATION HAVE SOLUTION FOR THIS PROBLEM?.
+                DOES THE UNITED NATION HAVE SOLUTION FOR THIS PROBLEM?.
             </h2>
             <p>
                 The UN Secretary-General António Guterres has said he is “deeply alarmed” over the standoff between the United States and Venezuela in recent months, which culminated on Saturday morning in the capture of President Nicolás Maduro by US special forces.

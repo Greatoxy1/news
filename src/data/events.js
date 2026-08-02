@@ -1,43 +1,24 @@
 export const events = [
   {
     slug: "europe-migration-crisis",
-    title: "Europe Migration Crisis",
+    title: "Over 50,000 Migrants arrived in spain from Morroco with in 24/7 - Read More ",
     author: "Globbal News",
-    date: "2026-06-21",
-    image: "/migrant1.webp",
+    date: "2026-08-1",
+    image: "/sm.webp",
     content: `
-The migration crisis continues to affect Europe.
 
-Many people leave their countries because of war,
-economic hardship, and insecurity.
+   Over 50,000 migrants have entered spain by sea with in 24/7 from Morroco while 18 people lost their lives.
+   This is the highest numbers of migrants arrived in single day by europeans migration records.
+   Italy is the first country that criticised Spain for receiving such huge number of people per day and threatened to suspend shengen with spain.
+   Do to major criticisms from different countries spain speak out to return some of them back to Morroco. 
 
-Several European governments are debating reforms
-to migration and asylum policies.
-
-Analysts say long-term solutions require addressing
-the root causes of displacement.
-
-In June 2026, the European Union approved a new "Return Regulation" 
-designed to make it easier and faster to return non-EU nationals who are staying illegally in EU member states or
- whose asylum claims have been rejected.
-
- Key elements of the new rules include:
-
-Faster and more uniform return procedures across the EU.
-Mutual recognition of return orders, so a return decision issued in one EU country can be enforced by another.
-Stronger obligations for people ordered to leave to cooperate with authorities.
-Longer detention periods in some cases, especially for people considered a flight risk or security risk.
-The possibility of using "return hubs" in non-EU countries under agreements that must respect international human rights standards.
-
-Supporters argue the law will improve enforcement because many people who receive return orders do not actually leave the EU.
- Critics, including some human rights organizations,
- say it could weaken protections for migrants and asylum seekers.
     `
   },
 
+
   {
     slug: "middle-east-conflict",
-    title: "Major Escalations in the Middle East",
+    title: "Major Escalations in the Middle Eas - Read Moret",
     author: "Globbal News",
     date: "2026-06-21",
     image: "/iran.png",
@@ -283,5 +264,45 @@ energy markets and regional stability.
     
 
     `
-  }
+  },
+
+  
+  {
+    slug: "europe-migration-crisis",
+    title: "Europe Migration Crisis - Read More ",
+    author: "Globbal news",
+    date: "2026-06-21",
+    image: "/migrant1.webp",
+    content: `
+
+The migration crisis continues to affect Europe.
+
+Many people leave their countries because of war,
+economic hardship, and insecurity.
+
+Several European governments are debating reforms
+to migration and asylum policies.
+
+Analysts say long-term solutions require addressing
+the root causes of displacement.
+
+In June 2026, the European Union approved a new "Return Regulation" 
+designed to make it easier and faster to return non-EU nationals who are staying illegally in EU member states or
+ whose asylum claims have been rejected.
+
+ Key elements of the new rules include:
+
+Faster and more uniform return procedures across the EU.
+Mutual recognition of return orders, so a return decision issued in one EU country can be enforced by another.
+Stronger obligations for people ordered to leave to cooperate with authorities.
+Longer detention periods in some cases, especially for people considered a flight risk or security risk.
+The possibility of using "return hubs" in non-EU countries under agreements that must respect international human rights standards.
+
+Supporters argue the law will improve enforcement because many people who receive return orders do not actually leave the EU.
+ Critics, including some human rights organizations,
+ say it could weaken protections for migrants and asylum seekers.
+    `
+  },
+
+
 ];
